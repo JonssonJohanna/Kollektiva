@@ -20,13 +20,10 @@ nav {
   padding-bottom: 20px;
   gap: 5%;
 }
-
-/* nav .homeIcon {
-  padding: 2rem;
-} */
-
-nav a {
-  margin-left: 12px;
+.loginContainer {
+  background-color: rgb(202, 199, 199);
+  padding: 1rem 2rem;
+  border-radius: 2rem;
 }
 
 nav .homeIcon {

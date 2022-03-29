@@ -7,21 +7,21 @@ const Navbar = () => {
       <div className="homeIcon">
         <Image src="/Group.svg" width={60} height={51} />
       </div>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
+
       <Link href="/forRent">
-        <a>For rent</a>
+        <a>Hitta bostad</a>
       </Link>
       <Link href="/landlord">
-        <a>Rent out</a>
+        <a>Hyr ut din bostad</a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a>Om oss</a>
       </Link>
-      <Link href="#">
-        <a>Logga in</a>
-      </Link>
+      <div className="loginContainer">
+        <Link href="#">
+          <a>Logga in</a>
+        </Link>
+      </div>
     </nav>
   );
 };

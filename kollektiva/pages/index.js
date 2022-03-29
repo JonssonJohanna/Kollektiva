@@ -20,6 +20,14 @@ export default function Home() {
           <div className={styles.searchButton}>Sök bostad</div>
         </div>
       </div>
+      <div className={styles.selectContainer}>
+        <button className={styles.findContainer}>
+          <h1 className={styles.select}>Hitta bostad</h1>
+        </button>
+        <button className={styles.rentContainer}>
+          <h1 className={styles.select}>Bli hyresvärd</h1>
+        </button>
+      </div>
     </div>
   );
 }

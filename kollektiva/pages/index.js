@@ -7,8 +7,19 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Startsida</h1>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Bo efter dina behov</h1>
+      <p className={styles.text}>
+        Rubrik här kan man hyra massa fina hus kolla vad bra
+      </p>
+
+      <div className={styles.search}>
+        <div className={styles.area}>Område: Skriv område eller adress</div>
+        <div className={styles.type}>
+          Boendetyp
+          <div className={styles.searchButton}>Sök bostad</div>
+        </div>
+      </div>
     </div>
   );
 }

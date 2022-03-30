@@ -41,9 +41,9 @@ a {
 
 Footer {
   /* display: block; */
-  padding: 30px 0;
   margin-top: 60px;
   background: gray;
+  border-radius: 20px 0px 0px 0px;
 }
 .FooterContainer {
   display: flex;
@@ -61,8 +61,11 @@ Footer {
 
 .FooterContact {
   background-color: rgb(190, 190, 185);
-  display: block;
+  display: flex;
   flex-direction: column;
+  width: 33%;
+  padding-left: 4rem;
+  border-radius: 20px 0px 0px 0px;
 }
 
 .FooterContactUs {
@@ -76,4 +79,24 @@ Footer {
 }
 .thin {
   display: inline;
+}
+.FooterKollektiva {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px 0px 0px 0px;
+}
+.FooterInformation {
+  width: 100%;
+  background-color: rgb(124, 123, 123);
+}
+.Policies {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+.CopyRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

@@ -17,13 +17,26 @@ const Footer = () => {
           </div>
           <div className="ContactRow">
             <p className="bold">Adress: </p>
-            <p className="thin">Exempelgatan 2</p>
+            <p className="thin">
+              Exempelgatan 22 <br></br>422 22 Exempelborg <br></br>Sverige
+            </p>
           </div>
         </div>
         <div className="FooterSocial">
+          <p className="FooterKollektiva">Följ Kollektiva</p>
           <p>Instagram</p>
           <p>Facebook</p>
           <p>Twitter</p>
+        </div>
+      </div>
+      <div className="FooterInformation">
+        <div className="Policies">
+          <p>Villkor</p>
+          <p>Säkerhetsregler</p>
+          <p>Cookies</p>
+        </div>
+        <div className="CopyRight">
+          <p>© 2022 Kollektiva</p>
         </div>
       </div>
     </footer>

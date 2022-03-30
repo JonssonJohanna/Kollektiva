@@ -31,6 +31,62 @@ export default function Home() {
           <Image src="/Key.svg" width={47} height={47} />
         </button>
       </div>
+
+      <div className={styles.informationContainer}>
+        <div className={styles.informationText}>
+          <h3>Bor du i ett stort hus? Info</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet
+            molestie nunc. Dui vel, augue risus, cursus auctor. Quam aliquam
+            ornare natoque sed nulla. Mi, porttitor et odio maecenas quam
+            pellentesque ultrices maecenas nulla. Vitae id ut amet molestie
+            nunc. Dui vel, augue risus, cursus auctor. Quam aliquam ornare
+            natoque sed nulla. Mi, porttitor et odio maecenas quam pellentesque
+            ultrices maecenas nulla. Vitae id ut amet molestie nunc. Dui vel,
+            augue risus, cursus auctor.
+          </p>
+        </div>
+        <div className={styles.informationImg}>
+          <Image src="/images/kiddo.png" width={682} height={507} />
+        </div>
+      </div>
+      <div className={styles.informationContainer}>
+        <div className={styles.informationImg}>
+          <Image src="/images/couple.png" width={682} height={507} />
+        </div>
+        <div className={styles.informationText}>
+          <h1>Text om miljö</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet
+            molestie nunc. Dui vel, augue risus, cursus auctor. Quam aliquam
+            ornare natoque sed nulla. Mi, porttitor et odio maecenas quam
+            pellentesque ultrices maecenas nulla. Vitae id ut amet molestie
+            nunc. Dui vel, augue risus, cursus auctor. Quam aliquam ornare
+            natoque sed nulla. Mi, porttitor et odio maecenas quam pellentesque
+            ultrices maecenas nulla. Vitae id ut amet molestie nunc. Dui vel,
+            augue risus, cursus auctor.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.quotesTitle}>
+        <h1>Rubrik quotes</h1>
+      </div>
+      <div className={styles.quotesContainer}>
+        <div className={styles.quoteImg}>
+          <Image src="/images/man.png" width={276} height={276} />
+        </div>
+        <div className={styles.quoteImg}>
+          <Image src="/images/man.png" width={276} height={276} />
+        </div>
+        <div className={styles.quoteImg}>
+          <Image src="/images/man.png" width={276} height={276} />
+        </div>
+      </div>
     </div>
   );
 }

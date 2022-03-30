@@ -68,7 +68,7 @@
 
 .selectContainer {
   display: flex;
-  width: 100vw;
+  width: 100%;
   flex-direction: row;
   justify-content: space-around;
   padding-right: 10%;
@@ -107,4 +107,39 @@
 
 .select {
   color: black;
+}
+
+.informationContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  background-color: white;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 0 10px 5px rgb(219, 218, 218);
+}
+
+.informationText {
+  width: 45vw;
+  padding: 5%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.informationImg {
+  width: 45vw;
+}
+
+.quotesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.quotesTitle {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

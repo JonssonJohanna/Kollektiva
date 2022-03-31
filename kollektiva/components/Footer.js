@@ -5,30 +5,33 @@ const Footer = () => {
         <div className="FooterLogo">
           <img src="/Group.svg"></img>
         </div>
-        <div className="FooterContact">
-          <p className="FooterContactUs">Kontakta oss</p>
-          <div className="TextContainer">
-            <div>
-              <p className="bold">E-post:</p>
-              <p className="thin">exempel@mail.com</p>
-            </div>
-            <div>
-              <p className="bold">Telefon:</p>
-              <p className="thin">0703-44 56 78</p>
-            </div>
-            <div>
-              <p className="bold">Adress: </p>
-              <p className="thin">
-                Exempelgatan 22 <br></br>422 22 Exempelborg <br></br>Sverige
-              </p>
+        <div className="mammaDiv">
+          <div className="FooterContact">
+            <p className="FooterContactUs">Kontakta oss</p>
+            <div className="TextContainer">
+              <div>
+                <p className="bold">E-post:</p>
+                <p className="thin">exempel@mail.com</p>
+              </div>
+              <div>
+                <p className="bold">Telefon:</p>
+                <p className="thin">0703-44 56 78</p>
+              </div>
+              <div>
+                <p className="bold">Adress: </p>
+                <p className="thin">
+                  Exempelgatan 22 <br></br>422 22 Exempelborg <br></br>Sverige
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="FooterSocial">
-          <p className="FooterKollektiva">Följ Kollektiva</p>
-          <p>Instagram</p>
-          <p>Facebook</p>
-          <p>Twitter</p>
+
+          <div className="FooterSocial">
+            <p className="FooterKollektiva">Följ Kollektiva</p>
+            <p>Instagram</p>
+            <p>Facebook</p>
+            <p>Twitter</p>
+          </div>
         </div>
       </div>
       <div className="FooterInformation">

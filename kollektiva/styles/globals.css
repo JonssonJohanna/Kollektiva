@@ -99,6 +99,7 @@ Footer {
   flex-direction: row;
   gap: 1rem;
   justify-content: center;
+  text-decoration: underline;
 }
 .CopyRight {
   display: flex;

@@ -14,11 +14,29 @@ export default function Home() {
       </p>
 
       <div className={styles.search}>
-        <div className={styles.area}>Område: Skriv område eller adress</div>
-        <div className={styles.type}>
-          Boendetyp
-          <div className={styles.searchButton}>Sök bostad</div>
-        </div>
+        <form className={styles.formContainer}>
+          <label className={styles.area}>Område: </label>
+          <input
+            type="text"
+            placeholder="Skriv område eller adress"
+            className={styles.inputText}
+          />
+
+          <label className={styles.type}>
+            <div className={styles.typeContainer}>
+              Boendetyp
+              <select className={styles.select}>
+                <option value="Lägenhet"></option>
+                <option value="Lägenhet">Lägenhet</option>
+                <option value="Ville">Villa</option>
+                <option value="Radhus">Radhus</option>
+              </select>
+            </div>
+            <div className={styles.buttonContainer}>
+              <button className={styles.searchButton}>Sök bostad</button>
+            </div>
+          </label>
+        </form>
       </div>
       <div className={styles.advancedSearch}>Avancerad sökning</div>
       <div className={styles.selectContainer}>

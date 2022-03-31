@@ -49,6 +49,7 @@ Footer {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+  height: 350px;
 }
 .FooterLogo {
   align-self: center;
@@ -61,6 +62,7 @@ Footer {
   width: 33%;
   align-items: center;
   border-radius: 20px 0px 0px 0px;
+  padding-top: 3rem;
 }
 .TextContainer {
   width: 50%;
@@ -83,6 +85,7 @@ Footer {
 }
 .FooterSocial {
   text-align: center;
+  padding-top: 3rem;
 }
 .FooterKollektiva {
   font-size: 1.5rem;

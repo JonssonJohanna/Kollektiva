@@ -80,6 +80,9 @@ Footer {
 .thin {
   display: inline;
 }
+.FooterSocial {
+  text-align: center;
+}
 .FooterKollektiva {
   font-size: 1.5rem;
   font-weight: bold;

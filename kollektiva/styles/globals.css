@@ -47,7 +47,7 @@ Footer {
 }
 .FooterContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: row;
 }
 .FooterLogo {
@@ -85,6 +85,7 @@ Footer {
   font-weight: bold;
   border-radius: 20px 0px 0px 0px;
 }
+
 .FooterInformation {
   width: 100%;
   background-color: rgb(124, 123, 123);

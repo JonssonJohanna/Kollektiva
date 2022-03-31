@@ -26,10 +26,12 @@ export default function Home() {
           <h1 className={styles.select}>Hitta bostad</h1>
           <Image src="/Group.svg" width={51} height={47} />
         </button>
-        <button className={styles.rentContainer}>
-          <h1 className={styles.select}>Bli hyresvärd</h1>
-          <Image src="/Key.svg" width={47} height={47} />
-        </button>
+        <Link href="/landlord">
+          <button className={styles.rentContainer}>
+            <h1 className={styles.select}>Bli hyresvärd</h1>
+            <Image src="/Key.svg" width={47} height={47} />
+          </button>
+        </Link>
       </div>
 
       <div className={styles.informationContainer}>

@@ -40,9 +40,8 @@ a {
 }
 
 Footer {
-  /* display: block; */
   margin-top: 60px;
-  background: gray;
+  /* background: gray; */
   border-radius: 20px 0px 0px 0px;
 }
 .FooterContainer {
@@ -50,16 +49,21 @@ Footer {
   justify-content: space-evenly;
   flex-direction: row;
   height: 350px;
+  background-color: gray;
+  border-radius: 20px 0 0 0;
 }
 .FooterLogo {
   align-self: center;
+  width: 50%;
+  text-align: center;
 }
 
 .FooterContact {
   background-color: rgb(190, 190, 185);
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 50%;
+
   align-items: center;
   border-radius: 20px 0px 0px 0px;
   padding-top: 3rem;
@@ -69,6 +73,14 @@ Footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.mammaDiv {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: rgb(190, 190, 185);
+  border-radius: 20px 0 0 0;
 }
 
 .FooterContactUs {
@@ -86,6 +98,9 @@ Footer {
 .FooterSocial {
   text-align: center;
   padding-top: 3rem;
+  width: 50%;
+  background-color: gray;
+  border-radius: 20px 0 0 0;
 }
 .FooterKollektiva {
   font-size: 1.5rem;

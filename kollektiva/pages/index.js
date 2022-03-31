@@ -81,12 +81,30 @@ export default function Home() {
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
           <Image src="/images/man.png" width={276} height={276} />
+          <h1>Namn Namnsson</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla.
+          </p>
         </div>
         <div className={styles.quoteImg}>
           <Image src="/images/man.png" width={276} height={276} />
+          <h1>Namn Namnsson</h1>
+          <p className={styles.textContainer}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla.
+          </p>
         </div>
         <div className={styles.quoteImg}>
           <Image src="/images/man.png" width={276} height={276} />
+          <h1>Namn Namnsson</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla.
+          </p>
         </div>
       </div>
     </div>

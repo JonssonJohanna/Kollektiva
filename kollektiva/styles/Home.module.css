@@ -143,3 +143,14 @@
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+.quoteImg {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 18rem;
+}
+
+/* .textContainer {
+  padding: 2rem;
+} */

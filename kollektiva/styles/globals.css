@@ -1,9 +1,14 @@
+:root {
+  --font-main: Avenir;
+}
+
 * {
   box-sizing: border-box;
 }
 body {
   background: rgb(236, 231, 231);
   margin: 0;
+  font-family: var(--font-main);
 }
 
 nav {
@@ -20,6 +25,7 @@ nav {
   padding-bottom: 20px;
   gap: 5%;
 }
+
 .loginContainer {
   background-color: rgb(202, 199, 199);
   padding: 1rem 2rem;

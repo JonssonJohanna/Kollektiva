@@ -86,13 +86,13 @@
 
 .selectContainer {
   display: flex;
-  width: 100%;
+  width: 80%;
   flex-direction: row;
   justify-content: space-around;
-  padding-right: 10%;
-  padding-left: 10%;
   padding-top: 5%;
   gap: 12%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .findContainer {
@@ -174,7 +174,7 @@
   width: 100%;
 }
 /* Mobile */
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .title {
     margin-top: 6rem;
     font-size: 2rem;

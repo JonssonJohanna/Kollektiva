@@ -15,12 +15,14 @@ export default function Home() {
 
       <div className={styles.search}>
         <form className={styles.formContainer}>
-          <label className={styles.area}>Område: </label>
-          <input
-            type="text"
-            placeholder="Skriv område eller adress"
-            className={styles.inputText}
-          />
+          <div className={styles.inputSearch}>
+            <label className={styles.area}>Område: </label>
+            <input
+              type="text"
+              placeholder="Skriv område eller adress"
+              className={styles.inputText}
+            />
+          </div>
 
           <label className={styles.type}>
             <div className={styles.typeContainer}>

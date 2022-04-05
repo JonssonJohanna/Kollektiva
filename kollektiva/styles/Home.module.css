@@ -287,11 +287,21 @@
     width: 33px;
     height: 30px;
   }
+  .informationContainer {
+    flex-direction: column-reverse;
+  }
 
-  /* .environment {
-    width: 343px;
-    height: 236px;
-  } */
+  .informationContainer {
+    width: 90%;
+  }
+  .informationText {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .informationImg {
+    width: 100vw;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 700px) {

@@ -43,20 +43,20 @@ export default function Home() {
       <div className={styles.advancedSearch}>Avancerad sökning</div>
       <div className={styles.selectContainer}>
         <button className={styles.findContainer}>
-          <h1 className={styles.select}>Hitta bostad</h1>
-          <Image src="/Group.svg" width={51} height={47} />
+          <h1 className={styles.selectButtons}>Hitta bostad</h1>
+          <img src="/icons/Group.svg" className={styles.icon}></img>
         </button>
         <Link href="/landlord">
           <button className={styles.rentContainer}>
-            <h1 className={styles.select}>Bli hyresvärd</h1>
-            <Image src="/Key.svg" width={47} height={47} />
+            <h1 className={styles.selectButtons}>Bli hyresvärd</h1>
+            <img src="/icons/Key.svg" className={styles.icon}></img>
           </button>
         </Link>
       </div>
 
       <div className={styles.informationContainer}>
         <div className={styles.informationText}>
-          <h3>Bor du i ett stort hus? Info</h3>
+          <h2>Bor du i ett stort hus? Info</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -71,15 +71,15 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <Image src="/images/kiddo.png" width={682} height={507} />
+          <img src="/images/kiddo.png" className={styles.environment}></img>
         </div>
       </div>
       <div className={styles.informationContainer}>
         <div className={styles.informationImg}>
-          <Image src="/images/couple.png" width={682} height={507} />
+          <img src="/images/kiddo.png" className={styles.environment}></img>
         </div>
         <div className={styles.informationText}>
-          <h1>Text om miljö</h1>
+          <h2>Text om miljö</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio

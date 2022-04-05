@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="FooterContainer">
         <div className="FooterLogo">
-          <img src="/Group.svg"></img>
+          <img src="/icons/Group.svg" className="iconNav"></img>
         </div>
         <div className="mammaDiv">
           <div className="FooterContact">

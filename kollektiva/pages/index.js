@@ -54,7 +54,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className={styles.informationContainer}>
+      <div className={styles.informationContainerRight}>
         <div className={styles.informationText}>
           <h2>Bor du i ett stort hus?</h2>
           <p>
@@ -74,12 +74,10 @@ export default function Home() {
           <img src="/images/kiddo.png" className={styles.environment}></img>
         </div>
       </div>
+
       <div className={styles.informationContainer}>
-        <div className={styles.informationImg}>
-          <h2>Text om miljö</h2>
-          <img src="/images/kiddo.png" className={styles.environment}></img>
-        </div>
         <div className={styles.informationText}>
+          <h2>Text om miljö</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -92,6 +90,9 @@ export default function Home() {
             ultrices maecenas nulla. Vitae id ut amet molestie nunc. Dui vel,
             augue risus, cursus auctor.
           </p>
+        </div>
+        <div className={styles.informationImg}>
+          <img src="/images/kiddo.png" className={styles.environment}></img>
         </div>
       </div>
 

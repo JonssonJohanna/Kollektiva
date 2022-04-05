@@ -317,6 +317,22 @@
   .informationImg {
     width: 100vw;
   }
+
+  .quotesContainer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quotesImg {
+    width: 70%;
+    align-self: center;
+  }
+
+  .textContainer {
+    margin-bottom: 2rem;
+  }
 }
 /* Tablet */
 @media only screen and (min-width: 700px) {

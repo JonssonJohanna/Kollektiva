@@ -101,16 +101,8 @@ export default function Home() {
       </div>
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
-          <Image src="/images/man.png" width={276} height={276} />
-          <h1>Namn Namnsson</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.
-          </p>
-        </div>
-        <div className={styles.quoteImg}>
-          <Image src="/images/man.png" width={276} height={276} />
+          <img src="/images/man.png" className={styles.quotesImg}></img>
+
           <h1>Namn Namnsson</h1>
           <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
@@ -119,9 +111,18 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.quoteImg}>
-          <Image src="/images/man.png" width={276} height={276} />
+          <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
           <h1>Namn Namnsson</h1>
-          <p>
+          <p className={styles.textContainer}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
+            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
+            maecenas quam pellentesque ultrices maecenas nulla.
+          </p>
+        </div>
+        <div className={styles.quoteImg}>
+          <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
+          <h1>Namn Namnsson</h1>
+          <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
             maecenas quam pellentesque ultrices maecenas nulla.

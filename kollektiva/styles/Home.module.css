@@ -5,7 +5,7 @@
 }
 
 .title {
-  margin-top: 6rem;
+  margin-top: 4rem;
   font-size: 3.5rem;
   margin-bottom: 1rem;
 }
@@ -64,7 +64,7 @@
 .select {
   background-color: unset;
   border: none;
-  width: 30px;
+  /* width: 30px; */
 }
 
 .searchButton {
@@ -185,7 +185,7 @@
 /* Mobile */
 @media only screen and (max-width: 475px) {
   .title {
-    margin-top: 6rem;
+    margin-top: 4rem;
     font-size: 2rem;
     text-align: center;
   }
@@ -197,6 +197,7 @@
     text-align: center;
     font-size: 1rem;
   }
+
   .search {
     background-color: none;
     display: flex;
@@ -213,9 +214,20 @@
   .inputText {
     border-radius: 0 51px 50px 0;
   }
+
+  .findContainer {
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .select {
     height: 56px;
-    width: 25px;
+    /* width: 125px; */
+    font-size: 1rem;
+    padding: 0;
+    align-self: center;
   }
   .type {
     width: 343px;
@@ -239,6 +251,7 @@
   .selectContainer {
     padding-left: unset;
     padding-right: unset;
+    width: 90%;
   }
 
   .inputSearch {

@@ -17,10 +17,11 @@
 }
 
 .rightContainer {
-  background-color: lightpink;
+  background-color: none;
   width: 75%;
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 
 .stepOne {
@@ -30,4 +31,5 @@
 
 .info {
   background-color: aquamarine;
+  border-radius: 25px;
 }

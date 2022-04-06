@@ -30,30 +30,14 @@ const StepOne = () => {
             <h2 className={styles.title}>Hej</h2>
             <p className={styles.moreInfo}>More info </p>
           </div>
-        </div>
-
-        <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>
             <p className={styles.moreInfo}>More info </p>
           </div>
-        </div>
-
-        <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>
             <p className={styles.moreInfo}>More info </p>
           </div>
-        </div>
-
-        <div className={styles.rightContainer}>
-          <div className={styles.info}>
-            <h2 className={styles.title}>Hej</h2>
-            <p className={styles.moreInfo}>More info </p>
-          </div>
-        </div>
-
-        <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>
             <p className={styles.moreInfo}>More info </p>

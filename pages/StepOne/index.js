@@ -68,29 +68,29 @@ const StepOne = () => {
             <h4 className={styles.moreInfo}>Vilken typ av bostad hyr du ut?</h4>
             <form className={styles.radioContainer}>
               <div className={styles.radioButtons}>
-                <label>Hel bostad</label>
                 <input
                   className={styles.checked}
                   type="radio"
                   value="option1"
                   checked={true}
                 />
+                <label>Hel bostad</label>
               </div>
               <div className={styles.radioButtons}>
-                <label>Våning i bostad</label>
                 <input
                   className={styles.checked}
                   type="radio"
                   value="option2"
                 />
+                <label>Våning i bostad</label>
               </div>
               <div className={styles.radioButtons}>
-                <label>Rum i bostad</label>
                 <input
                   className={styles.checked}
                   type="radio"
                   value="option3"
                 />
+                <label>Rum i bostad</label>
               </div>
             </form>
           </div>

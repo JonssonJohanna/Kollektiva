@@ -1,4 +1,4 @@
-.h1 {
+.mainTitle {
   padding-left: 25%;
 }
 .breadText {
@@ -9,7 +9,7 @@
 }
 
 .parentContainer {
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
   display: flex;
   gap: 40px;
 }
@@ -31,12 +31,16 @@
 }
 
 .stepOne {
-  background-color: blanchedalmond;
+  background-color: rgb(218, 216, 216);
   border-radius: 0px 25px 25px 0px;
 }
 
+.active {
+  background-color: rgb(75, 72, 72);
+  border-radius: 0px 25px 25px 0px;
+}
 .info {
-  background-color: aquamarine;
+  background-color: #dedede;
   border-radius: 25px;
 }
 
@@ -44,6 +48,11 @@
   display: flex;
   flex-direction: column;
 }
+
+.adress {
+  font-size: 28px;
+}
+
 .inputFields {
   display: flex;
   flex-direction: row;

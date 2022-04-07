@@ -1,8 +1,8 @@
 .h1 {
-  text-align: center;
+  padding-left: 25%;
 }
 .breadText {
-  text-align: center;
+  padding-left: 25%;
 }
 .test {
   color: rgb(90, 116, 124);
@@ -38,4 +38,21 @@
 .info {
   background-color: aquamarine;
   border-radius: 25px;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+.inputFields {
+  display: flex;
+  flex-direction: row;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+}
+.city {
+  display: flex;
+  flex-direction: column;
 }

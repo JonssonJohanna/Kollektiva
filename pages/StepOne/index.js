@@ -30,8 +30,26 @@ const StepOne = () => {
 
         <div className={styles.rightContainer}>
           <div className={styles.info}>
-            <h2 className={styles.title}>Hej</h2>
-            <p className={styles.moreInfo}>More info </p>
+            <h2 className={styles.title}>Adress</h2>
+            <form>
+              <div className={styles.inputField}>
+                <label>Bostadens adress</label>
+                <input type="text" placeholder="Exempelgatan 1" />
+              </div>
+            </form>
+            <form>
+              <div className={styles.inputFields}>
+                <div className={styles.number}>
+                  <label>Postnummer</label>
+                  <input type="text" placeholder="421 69" />
+                </div>
+                <div className={styles.city}>
+                  <label>Ort</label>
+                  <input type="text" placeholder="Göteborg" />
+                </div>
+              </div>
+            </form>
+            {/* <p className={styles.moreInfo}>More info </p> */}
           </div>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>
@@ -43,6 +61,7 @@ const StepOne = () => {
           </div>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>
+            <form></form>
             <p className={styles.moreInfo}>More info </p>
           </div>
         </div>

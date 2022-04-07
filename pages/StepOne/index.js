@@ -11,23 +11,23 @@ const StepOne = () => {
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.active}>
-            <h4 class={styles.stepActive}>Step 1</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.stepActive}>Steg 1</h4>
+            <p class={styles.stepInfo}>Om din bostad</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 2</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 2</h4>
+            <p class={styles.stepInfo}>Bekvämligheter</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 3</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 3</h4>
+            <p class={styles.stepInfo}>Husregler</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 4</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 4</h4>
+            <p class={styles.stepInfo}>Uthyrning</p>
           </div>
         </div>
-
+        {/* step one */}
         <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Adress</h2>
@@ -61,11 +61,38 @@ const StepOne = () => {
                 </div>
               </div>
             </form>
-            {/* <p className={styles.moreInfo}>More info </p> */}
           </div>
+          {/* step two */}
           <div className={styles.info}>
             <h2 className={styles.title}>Typ av bostad</h2>
             <h4 className={styles.moreInfo}>Vilken typ av bostad hyr du ut?</h4>
+            <form className={styles.radioContainer}>
+              <div className={styles.radioButtons}>
+                <label>Hel bostad</label>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={true}
+                />
+              </div>
+              <div className={styles.radioButtons}>
+                <label>Våning i bostad</label>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option2"
+                />
+              </div>
+              <div className={styles.radioButtons}>
+                <label>Rum i bostad</label>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option3"
+                />
+              </div>
+            </form>
           </div>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>

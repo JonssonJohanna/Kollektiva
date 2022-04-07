@@ -43,9 +43,11 @@
 }
 .stepActive {
   padding-left: 1rem;
+  margin-bottom: 8px;
 }
 .step {
   padding-left: 1rem;
+  margin-bottom: 8px;
 }
 .stepInfo {
   padding-left: 1rem;
@@ -67,6 +69,7 @@
 
 .adress {
   font-size: 28px;
+  font-weight: 500;
 }
 .adressField {
   border-radius: 200px;
@@ -74,6 +77,8 @@
   height: 60px;
   padding-left: 2rem;
   margin-top: 20px;
+  border: 1px solid #808080;
+  width: 100%;
 }
 
 .inputFields {
@@ -88,6 +93,7 @@
 }
 .inputName {
   font-size: 28px;
+  font-weight: 500;
 }
 
 .city {
@@ -100,5 +106,23 @@
   height: 60px;
   padding-left: 2rem;
   margin-top: 20px;
-  width: 430px;
+  width: 100%;
+  border: 1px solid #808080;
+}
+
+.moreInfo {
+  font-size: 28px;
+}
+
+.radioContainer {
+  display: flex;
+  margin: 0 40px 0 40px;
+}
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+}
+.checked {
+  height: 40px;
+  width: 40px;
 }

@@ -42,12 +42,12 @@ export default function Home() {
       <div className={styles.advancedSearch}>Avancerad sökning</div>
       <div className={styles.selectContainer}>
         <button className={styles.findContainer}>
-          <h1 className={styles.selectButtons}>Hitta bostad</h1>
+          <h4 className={styles.selectButtons}>Hitta bostad</h4>
           <img src="/icons/Group.svg" className={styles.icon}></img>
         </button>
         <Link href="/landlord">
           <button className={styles.rentContainer}>
-            <h1 className={styles.selectButtons}>Bli hyresvärd</h1>
+            <h4 className={styles.selectButtons}>Bli hyresvärd</h4>
             <img src="/icons/Key.svg" className={styles.icon}></img>
           </button>
         </Link>
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className={styles.informationContainerRight}>
         <div className={styles.informationText}>
-          <h2>Bor du i ett stort hus?</h2>
+          <h3>Bor du i ett stort hus?</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -76,7 +76,7 @@ export default function Home() {
 
       <div className={styles.informationContainer}>
         <div className={styles.informationText}>
-          <h2>Text om miljö</h2>
+          <h3>Text om miljö</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -96,13 +96,13 @@ export default function Home() {
       </div>
 
       <div className={styles.quotesTitle}>
-        <h1>Rubrik quotes</h1>
+        <h2>Rubrik quotes</h2>
       </div>
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
           <img src="/images/man.png" className={styles.quotesImg}></img>
 
-          <h1>Namn Namnsson</h1>
+          <h4>Namn Namnsson</h4>
           <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className={styles.quoteImg}>
           <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
-          <h1>Namn Namnsson</h1>
+          <h4>Namn Namnsson</h4>
           <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className={styles.quoteImg}>
           <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
-          <h1>Namn Namnsson</h1>
+          <h4>Namn Namnsson</h4>
           <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio

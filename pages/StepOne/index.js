@@ -11,7 +11,7 @@ const StepOne = () => {
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.active}>
-            <h4 class={styles.active}>Step 1</h4>
+            <h4 class={styles.stepActive}>Step 1</h4>
             <p class={styles.stepInfo}>text</p>
           </div>
           <div className={styles.stepOne}>
@@ -34,18 +34,30 @@ const StepOne = () => {
             <form>
               <div className={styles.inputField}>
                 <label className={styles.adress}>Bostadens adress</label>
-                <input type="text" placeholder="Exempelgatan 1" />
+                <input
+                  className={styles.adressField}
+                  type="text"
+                  placeholder="Exempelgatan 1"
+                />
               </div>
             </form>
             <form>
               <div className={styles.inputFields}>
                 <div className={styles.number}>
-                  <label>Postnummer</label>
-                  <input type="text" placeholder="421 69" />
+                  <label className={styles.inputName}>Postnummer</label>
+                  <input
+                    className={styles.adressField}
+                    type="text"
+                    placeholder="421 69"
+                  />
                 </div>
                 <div className={styles.city}>
-                  <label>Ort</label>
-                  <input type="text" placeholder="Göteborg" />
+                  <label className={styles.inputName}>Ort</label>
+                  <input
+                    className={styles.cityField}
+                    type="text"
+                    placeholder="Göteborg"
+                  />
                 </div>
               </div>
             </form>

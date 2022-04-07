@@ -1,12 +1,14 @@
 .mainTitle {
   padding-left: 25%;
+  margin-bottom: 0;
 }
 .breadText {
   padding-left: 25%;
+  margin-bottom: 40px;
 }
-.test {
+/* .test {
   color: rgb(90, 116, 124);
-}
+} */
 
 .parentContainer {
   background-color: rgb(255, 255, 255);
@@ -16,7 +18,7 @@
 
 .leftContainer {
   /* background-color: rgb(244, 255, 182); */
-  width: 20%;
+  width: 30%;
   gap: 40px;
   display: flex;
   flex-direction: column;
@@ -39,29 +41,64 @@
   background-color: rgb(75, 72, 72);
   border-radius: 0px 25px 25px 0px;
 }
+.stepActive {
+  padding-left: 1rem;
+}
+.step {
+  padding-left: 1rem;
+}
+.stepInfo {
+  padding-left: 1rem;
+}
 .info {
   background-color: #dedede;
   border-radius: 25px;
+  margin-right: 40px;
+}
+.title {
+  margin: 40px;
 }
 
 .inputField {
   display: flex;
   flex-direction: column;
+  margin: 0 40px 0 40px;
 }
 
 .adress {
   font-size: 28px;
 }
+.adressField {
+  border-radius: 200px;
+  border: none;
+  height: 60px;
+  padding-left: 2rem;
+  margin-top: 20px;
+}
 
 .inputFields {
   display: flex;
   flex-direction: row;
+  margin: 40px;
+  gap: 2rem;
 }
 .number {
   display: flex;
   flex-direction: column;
 }
+.inputName {
+  font-size: 28px;
+}
+
 .city {
   display: flex;
   flex-direction: column;
+}
+.cityField {
+  border-radius: 200px;
+  border: none;
+  height: 60px;
+  padding-left: 2rem;
+  margin-top: 20px;
+  width: 430px;
 }

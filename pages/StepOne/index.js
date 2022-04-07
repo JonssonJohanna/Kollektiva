@@ -4,7 +4,10 @@ import styles from "/styles/StepOne.module.css";
 const StepOne = () => {
   return (
     <div className={styles.bodyContainer}>
-      <h1>Titel på sidan</h1>
+      <h1 className={styles.h1}>Steg 1</h1>
+      <h3 className={styles.breadText}>
+        Fyll i information om den bostaden du vill hyra ut
+      </h3>
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.stepOne}>

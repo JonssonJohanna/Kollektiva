@@ -93,6 +93,21 @@ const StepOne = () => {
                 <label>Rum i bostad</label>
               </div>
             </form>
+            <h4 className={styles.moreInfo}>
+              Hur många rum finns det i bostaden/hyra ut?
+            </h4>
+            <form>
+              <div className={styles.inputField}>
+                <label className={styles.moreInfo}>
+                  Hur många kvadratmeter?
+                </label>
+                <input
+                  className={styles.adressField}
+                  type="text"
+                  placeholder="52"
+                />
+              </div>
+            </form>
           </div>
           <div className={styles.info}>
             <h2 className={styles.title}>Hej</h2>

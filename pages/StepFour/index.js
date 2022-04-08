@@ -155,8 +155,36 @@ const StepFour = () => {
             <h4 className={styles.moreInfo}>
               Ladda upp bilder på bostaden (minst 5 bilder)
             </h4>
+            <div className={styles.dragNdrop}>
+              <img
+                className={styles.imageDrop}
+                src="/icons/dropImage.svg"
+              ></img>
+              <div className={styles.textDrop}>
+                Dra in dina filer och släpp här
+              </div>
+              <button className={styles.buttonDrop}>Välj filer</button>
+            </div>
+            <div className={styles.dropedImages}>
+              <div className={styles.imageItem}></div>
+              <div className={styles.imageItem}></div>
+              <div className={styles.imageItem}></div>
+              <div className={styles.imageItem}></div>
+              <div className={styles.imageItem}></div>
+            </div>
           </div>
         </div>
+      </div>
+      <div className={styles.save}>
+        <div className={styles.columnButton}>
+          <button className={styles.buttons}>Spara utkast</button>
+          <Link href="Preview">
+            <button className={styles.button}>Förhandsgranskning</button>
+          </Link>
+        </div>
+        <Link href="StepTwo">
+          <button className={styles.buttons}>Skicka in annons</button>
+        </Link>
       </div>
     </div>
   );

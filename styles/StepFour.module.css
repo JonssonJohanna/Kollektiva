@@ -128,3 +128,81 @@
   padding-top: 1rem;
   margin-top: 1rem;
 }
+
+.dragNdrop {
+  background-color: #e9e9e9;
+  border: 1px dashed #808080;
+  border-radius: 20px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+  gap: 1rem;
+}
+.imageDrop {
+  width: 73px;
+  height: 68.44px;
+}
+.textDrop {
+  font-weight: 400;
+  font-size: 20px;
+}
+.buttonDrop {
+  background: #b3b3b3;
+  border-radius: 200px;
+  border: none;
+  width: 18%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dropedImages {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin: 5%;
+  justify-content: space-between;
+}
+.imageItem {
+  width: 130px;
+  height: 130px;
+  background-color: #c4c4c4;
+  border-radius: 20px;
+}
+.columnButton {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.save {
+  display: flex;
+  justify-content: end;
+  padding-top: 4rem;
+  padding-right: 1rem;
+  gap: 44%;
+}
+
+.buttons {
+  width: 190px;
+  height: 68px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}
+.button {
+  width: 250px;
+  height: 68px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+}

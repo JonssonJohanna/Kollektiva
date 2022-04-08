@@ -78,20 +78,19 @@
 .titleField {
   font-size: 20px;
   font-weight: 500;
-  padding-left: 5%;
+  /* padding-left: 5%; */
 }
 .textField {
   border-radius: 200px;
   border: none;
   height: 60px;
-  padding-left: 5%;
+  padding-left: 1rem;
   margin-top: 1rem;
   border: 1px solid #808080;
   width: 100%;
 }
 .radioContainer {
   margin: 0 40px 0 40px;
-  margin-left: 5%;
 }
 .radioButtons {
   font-size: 20px;
@@ -105,4 +104,27 @@
   margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
+}
+.costField {
+  border-radius: 200px;
+  border: none;
+  height: 60px;
+  padding-left: 1rem;
+  margin-top: 20px;
+  border: 1px solid #808080;
+  width: 30%;
+  word-spacing: 7rem;
+  margin-bottom: 1rem;
+}
+.labelField {
+  margin-bottom: 2rem;
+  font-size: 20px;
+  font-weight: 400;
+}
+.textArea {
+  border-radius: 20px;
+  height: 300px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
 }

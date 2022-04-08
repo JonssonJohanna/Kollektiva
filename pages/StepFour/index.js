@@ -119,6 +119,43 @@ const StepFour = () => {
               </div>
             </form>
           </div>
+          {/* Step two */}
+          <div className={styles.info}>
+            <h2 className={styles.title}>Pris</h2>
+            <h4 className={styles.moreInfo}>
+              Hur mycket ska det kosta i månaden att hyra din bostad?
+            </h4>
+            <form>
+              <div className={styles.inputField}>
+                <input
+                  className={styles.costField}
+                  type="text"
+                  placeholder="1000 kr/mån"
+                />
+                <label className={styles.labelField}>
+                  Rekommenderade priser för likanande bostäder är 800 kr/mån
+                </label>
+              </div>
+            </form>
+          </div>
+          <div className={styles.info}>
+            <h2 className={styles.title}>Beskrivning och bilder</h2>
+            <form>
+              <div className={styles.inputField}>
+                <label className={styles.titleField}>
+                  Skriv en kort beskrivning om din bostad
+                </label>
+                <textarea
+                  className={styles.textArea}
+                  type="text"
+                  placeholder="Skriv din text här..."
+                />
+              </div>
+            </form>
+            <h4 className={styles.moreInfo}>
+              Ladda upp bilder på bostaden (minst 5 bilder)
+            </h4>
+          </div>
         </div>
       </div>
     </div>

@@ -11,20 +11,20 @@ const StepOne = () => {
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.active}>
-            <h4 class={styles.stepActive}>Steg 1</h4>
-            <p class={styles.stepInfo}>Om din bostad</p>
+            <h4 className={styles.stepActive}>Steg 1</h4>
+            <p className={styles.stepInfo}>Om din bostad</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Steg 2</h4>
-            <p class={styles.stepInfo}>Bekvämligheter</p>
+            <h4 className={styles.step}>Steg 2</h4>
+            <p className={styles.stepInfo}>Bekvämligheter</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Steg 3</h4>
-            <p class={styles.stepInfo}>Husregler</p>
+            <h4 className={styles.step}>Steg 3</h4>
+            <p className={styles.stepInfo}>Husregler</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Steg 4</h4>
-            <p class={styles.stepInfo}>Uthyrning</p>
+            <h4 className={styles.step}>Steg 4</h4>
+            <p className={styles.stepInfo}>Uthyrning</p>
           </div>
         </div>
         {/* step one */}

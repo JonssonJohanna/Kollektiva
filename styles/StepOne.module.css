@@ -1,3 +1,9 @@
+.pageNavigate {
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+}
 .mainTitle {
   padding-left: 25%;
   margin-bottom: 0;
@@ -5,10 +11,9 @@
 .breadText {
   padding-left: 25%;
   margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 20px;
 }
-/* .test {
-  color: rgb(90, 116, 124);
-} */
 
 .parentContainer {
   background-color: rgb(255, 255, 255);
@@ -17,7 +22,6 @@
 }
 
 .leftContainer {
-  /* background-color: rgb(244, 255, 182); */
   width: 30%;
   gap: 40px;
   display: flex;
@@ -112,14 +116,15 @@
 
 .moreInfo {
   font-size: 28px;
-  margin-left: 3rem;
+  margin-left: 5%;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .radioContainer {
   display: flex;
   margin: 0 40px 0 40px;
-  margin-left: 3rem;
+  margin-left: 5%;
   justify-content: space-between;
 }
 .radioButtons {
@@ -129,4 +134,74 @@
   height: 20px;
   width: 40px;
   padding-right: 0.5rem;
+}
+
+.metresField {
+  border-radius: 200px;
+  border: none;
+  height: 60px;
+  padding-left: 2rem;
+  margin-top: 20px;
+  border: 1px solid #808080;
+  width: 30%;
+  word-spacing: 9rem;
+  margin-bottom: 2rem;
+}
+
+.furnitureContainer {
+  display: flex;
+  margin: 0 40px 0 40px;
+  margin-left: 5%;
+  gap: 40%;
+  margin-bottom: 2rem;
+}
+.save {
+  display: flex;
+  justify-content: end;
+  padding-top: 4rem;
+  padding-right: 1rem;
+  gap: 44%;
+}
+
+.buttons {
+  width: 175px;
+  height: 68px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.counterContainer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 290px;
+  border: 1px solid #a8a8a8;
+  border-radius: 200px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+.minus {
+  width: 44px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 2%;
+  font-size: 25px;
+  border: 1px solid #a8a8a8;
+  background-color: white;
+  cursor: pointer;
+}
+.plus {
+  width: 44px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 2%;
+  font-size: 25px;
+  border: 1px solid #a8a8a8;
+  background-color: white;
+  cursor: pointer;
 }

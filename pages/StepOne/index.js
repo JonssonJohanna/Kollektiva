@@ -4,6 +4,18 @@ import styles from "/styles/StepOne.module.css";
 const StepOne = () => {
   return (
     <div className={styles.bodyContainer}>
+      <div className={styles.pageNavigate}>
+        <Link href="/">
+          <a>Hem / </a>
+        </Link>
+        <Link href="/landlord">
+          <a>Hyr ut din bostad / </a>
+        </Link>
+        <Link href="/StepOne">
+          <a>Skapa annons</a>
+        </Link>
+      </div>
+
       <h2 className={styles.mainTitle}>Steg 1</h2>
       <p className={styles.breadText}>
         Fyll i information om den bostaden du vill hyra ut
@@ -96,34 +108,132 @@ const StepOne = () => {
             <h4 className={styles.moreInfo}>
               Hur många rum finns det i bostaden/hyra ut?
             </h4>
+            <div className={styles.counterContainer}>
+              <button className={styles.minus}>-</button>
+              <div className={styles.counterText}>1 rum</div>
+              <button className={styles.plus}>+</button>
+            </div>
             <form>
               <div className={styles.inputField}>
-                <label className={styles.moreInfo}>
-                  Hur många kvadratmeter?
-                </label>
+                <label className={styles.adress}>Hur många kvadratmeter?</label>
                 <input
-                  className={styles.adressField}
+                  className={styles.metresField}
                   type="text"
-                  placeholder="52"
+                  placeholder="52 m²"
                 />
               </div>
             </form>
           </div>
+          {/* Step three */}
           <div className={styles.info}>
-            <h2 className={styles.title}>Hej</h2>
-            <p className={styles.moreInfo}> </p>
+            <h2 className={styles.title}>Möbler</h2>
+            <h4 className={styles.moreInfo}>
+              Kommer bostaden hyras ut möblerad?
+            </h4>
+            <form className={styles.furnitureContainer}>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={true}
+                />
+                <label>Ja</label>
+              </div>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option2"
+                />
+                <label>Nej</label>
+              </div>
+            </form>
           </div>
+          {/* step four */}
           <div className={styles.info}>
-            <h2 className={styles.title}>Hej</h2>
-            <form></form>
-            <p className={styles.moreInfo}>More info </p>
+            <h2 className={styles.title}>Badrum</h2>
+            <h4 className={styles.moreInfo}>Tillgång till badrum?</h4>
+            <form className={styles.furnitureContainer}>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={true}
+                />
+                <label>Ja</label>
+              </div>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option2"
+                />
+                <label>Nej</label>
+              </div>
+            </form>
+            <h4 className={styles.moreInfo}>
+              Hur många badrum finns det i bostaden?
+            </h4>
+            <div className={styles.counterContainer}>
+              <button className={styles.minus}>-</button>
+              <div className={styles.counterText}>1 badrum</div>
+              <button className={styles.plus}>+</button>
+            </div>
+          </div>
+          {/* Step five */}
+          <div className={styles.info}>
+            <h2 className={styles.title}>Driftkostnader</h2>
+            <h4 className={styles.moreInfo}>Vem betalar elkostnader?</h4>
+            <form className={styles.furnitureContainer}>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={true}
+                />
+                <label>Du som hyresvärd</label>
+              </div>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option2"
+                />
+                <label>Hyresgästen</label>
+              </div>
+            </form>
+            <h4 className={styles.moreInfo}>Vem betalar vattenkostnader?</h4>
+            <form className={styles.furnitureContainer}>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={true}
+                />
+                <label>Du som hyresvärd</label>
+              </div>
+              <div className={styles.radioButtons}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option2"
+                />
+                <label>Hyresgästen</label>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-
-      <Link href="StepTwo">
-        <button>Next step</button>
-      </Link>
+      <div className={styles.save}>
+        <button className={styles.buttons}>Spara utkast</button>
+        <Link href="StepTwo">
+          <button className={styles.buttons}>Nästa</button>
+        </Link>
+      </div>
     </div>
   );
 };

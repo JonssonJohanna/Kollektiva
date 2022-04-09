@@ -133,7 +133,7 @@ const StepFour = () => {
                   placeholder="1000 kr/mån"
                 />
                 <label className={styles.labelField}>
-                  Rekommenderade priser för likanande bostäder är 800 kr/mån
+                  Rekommenderade priser för likanande bostäder är 8000 kr/mån
                 </label>
               </div>
             </form>
@@ -182,9 +182,8 @@ const StepFour = () => {
             <button className={styles.button}>Förhandsgranskning</button>
           </Link>
         </div>
-        <Link href="StepTwo">
-          <button className={styles.buttons}>Skicka in annons</button>
-        </Link>
+
+        <button className={styles.buttons}>Skicka in annons</button>
       </div>
     </div>
   );

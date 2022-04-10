@@ -5,7 +5,7 @@ const StepOne = () => {
   return (
     <div className={styles.bodyContainer}>
       <div className={styles.pageNavigate}>
-        <Link href="/">
+        <Link href="/" passHref>
           <a>Hem / </a>
         </Link>
         <Link href="/landlord">

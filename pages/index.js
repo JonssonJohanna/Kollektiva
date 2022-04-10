@@ -119,7 +119,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.quoteImg}>
-          <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
+          <img
+            src="/images/man.png"
+            className={styles.quotesImg}
+            alt="man in a cafe"
+          ></img>
           <h4>Namn Namnsson</h4>
           <p className={styles.textContainer}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis

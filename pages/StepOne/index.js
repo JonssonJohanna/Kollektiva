@@ -77,7 +77,7 @@ const StepOne = () => {
           {/* step two */}
           <div className={styles.info}>
             <h2 className={styles.title}>Typ av bostad</h2>
-            <h4 className={styles.moreInfo}>Vilken typ av bostad hyr du ut?</h4>
+            <h4 className={styles.InfoType}>Vilken typ av bostad hyr du ut?</h4>
             <form className={styles.radioContainer}>
               <div className={styles.radioButtons}>
                 <input

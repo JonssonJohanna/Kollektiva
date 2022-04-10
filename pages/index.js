@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className={styles.informationContainerRight}>
         <div className={styles.informationText}>
-          <h3>Bor du i ett stort hus?</h3>
+          <h3 className={styles.imgTitle}>Bor du också i ett för stort hus?</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -76,7 +76,7 @@ export default function Home() {
 
       <div className={styles.informationContainer}>
         <div className={styles.informationText}>
-          <h3>Text om miljö</h3>
+          <h3 className={styles.imgTitle}>Text om miljö</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio

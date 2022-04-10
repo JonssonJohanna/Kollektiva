@@ -39,6 +39,7 @@ nav .homeIcon {
 a {
   color: rgb(88, 85, 85);
   text-decoration: none;
+  font-family: Avenir;
 }
 .container {
   max-width: 100vw;

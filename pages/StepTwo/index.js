@@ -103,14 +103,12 @@ const StepTwo = () => {
           </div>
           <div className={styles.save}>
             <button className={styles.buttons}>Spara utkast</button>
-            <button className={styles.buttons}>Nästa</button>
+            <Link href="StepThree">
+              <button className={styles.buttons}>Nästa</button>
+            </Link>
           </div>
         </div>
       </div>
-
-      <Link href="StepThree">
-        <button>Next step</button>
-      </Link>
     </div>
   );
 };

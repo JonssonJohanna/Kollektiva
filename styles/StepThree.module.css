@@ -1,0 +1,94 @@
+.mainTitle {
+  padding-left: 27%;
+}
+.breadText {
+  padding-left: 28%;
+}
+.test {
+  color: rgb(90, 116, 124);
+}
+
+.parentContainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  gap: 40px;
+}
+
+.leftContainer {
+  /* background-color: rgb(244, 255, 182); */
+  width: 20%;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  background-color: none;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+.stepOne {
+  background-color: rgb(218, 216, 216);
+  border-radius: 0px 25px 25px 0px;
+}
+
+.active {
+  background-color: rgb(75, 72, 72);
+  border-radius: 0px 25px 25px 0px;
+}
+.info {
+  background-color: #e8e5e5;
+  border-radius: 25px;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  width: 90%;
+  margin-left: 3rem;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+
+.adress {
+  font-size: 28px;
+}
+
+.amentiesContainer {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.amentiesRow {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+.amentiesItem {
+  width: 143px;
+  height: 143px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  border: none;
+}
+
+.save {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.buttons {
+  width: 175px;
+  height: 68px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 200px;
+  border: none;
+  cursor: pointer;
+}

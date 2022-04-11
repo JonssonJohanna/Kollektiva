@@ -32,23 +32,114 @@ const StepThree = () => {
           <div className={styles.info}>
             <h3 className={styles.title}>Husregler</h3>
             <h4>Är djur tillåtet i din bostad?</h4>
+            <div className={styles.radioButtonsContainer}>
+              <div className={styles.radioButtonsFirst}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Ja</label>
+              </div>
+
+              <div className={styles.radioButtonsSecond}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Nej</label>
+              </div>
+            </div>
+
             <h4>Är rökning tillåtet i din bostad?</h4>
+            <div className={styles.radioButtonsContainer}>
+              <div className={styles.radioButtonsFirst}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Ja</label>
+              </div>
+
+              <div className={styles.radioButtonsSecond}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Nej</label>
+              </div>
+            </div>
+
             <h4>Är det tillåtet att måla om i din bostad?</h4>
+            <div className={styles.radioButtonsContainer}>
+              <div className={styles.radioButtonsFirst}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Ja</label>
+              </div>
+
+              <div className={styles.radioButtonsSecond}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Nej</label>
+              </div>
+            </div>
+
             <h4>
               Är det tillåtet att spika upp saker på väggarna i din bostad?
             </h4>
+            <div className={styles.radioButtonsContainer}>
+              <div className={styles.radioButtonsFirst}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Ja</label>
+              </div>
+
+              <div className={styles.radioButtonsSecond}>
+                <input
+                  className={styles.checked}
+                  type="radio"
+                  value="option1"
+                  checked={false}
+                />
+                <label>Nej</label>
+              </div>
+            </div>
+
             <h4>Max antal personer som får bo i bostaden</h4>
+            <div className={styles.counterContainer}>
+              <button className={styles.minus}>-</button>
+              <div className={styles.counterText}>1 personer</div>
+              <button className={styles.plus}>+</button>
+            </div>
           </div>
           <div className={styles.save}>
             <button className={styles.buttons}>Spara utkast</button>
-            <button className={styles.buttons}>Nästa</button>
+            <Link href="StepFour">
+              <button className={styles.buttons}>Nästa</button>
+            </Link>
           </div>
         </div>
       </div>
-
-      <Link href="StepThree">
-        <button>Next step</button>
-      </Link>
     </div>
   );
 };

@@ -92,3 +92,23 @@
   border: none;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 475px) {
+  .leftContainer {
+    display: none;
+  }
+
+  .mainTitle {
+    padding-left: 16px;
+  }
+
+  .breadText {
+    padding-left: 16px;
+  }
+
+  .info {
+    margin-left: 16px;
+    padding-left: 16px;
+    width: 90vw;
+  }
+}

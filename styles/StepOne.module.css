@@ -5,11 +5,11 @@
   font-weight: 500;
 }
 .mainTitle {
-  padding-left: 30%;
+  padding-left: 31%;
   margin-bottom: 0;
 }
 .breadText {
-  padding-left: 30%;
+  padding-left: 31%;
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 20px;
@@ -59,13 +59,18 @@
   margin-bottom: 0;
   padding-top: 1rem;
 }
+
 .stepInfo {
   padding-left: 1rem;
 }
+
 .info {
-  background-color: #dedede;
+  background-color: #e8e5e5;
   border-radius: 25px;
-  margin-right: 40px;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  width: 90%;
+  margin-left: 3rem;
 }
 .title {
   margin: 40px;

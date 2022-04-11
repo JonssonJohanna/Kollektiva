@@ -92,3 +92,103 @@
   border: none;
   cursor: pointer;
 }
+
+.radioButtonsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.checked {
+  height: 20px;
+  width: 40px;
+  padding-right: 0.5rem;
+}
+
+.counterContainer {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 290px;
+  border: 1px solid #a8a8a8;
+  border-radius: 200px;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.minus {
+  width: 44px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 2%;
+  font-size: 25px;
+  border: 1px solid #a8a8a8;
+  background-color: white;
+  cursor: pointer;
+}
+.plus {
+  width: 44px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 2%;
+  font-size: 25px;
+  border: 1px solid #a8a8a8;
+  background-color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 475px) {
+  .leftContainer {
+    display: none;
+  }
+
+  .mainTitle {
+    padding-left: 5%;
+  }
+
+  .breadText {
+    padding-left: 5%;
+  }
+
+  .info {
+    background-color: #e8e5e5;
+    border-radius: 25px;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    width: 90vw;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .radioButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .counterContainer {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 95%;
+    border: 1px solid #a8a8a8;
+    border-radius: 200px;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    margin-bottom: 2rem;
+  }
+
+  .save {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 4rem;
+  }
+}

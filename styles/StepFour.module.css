@@ -206,3 +206,59 @@
   font-size: 20px;
   font-weight: 400;
 }
+
+/* Mobile */
+@media only screen and (max-width: 475px) {
+  .pageNavigate {
+    font-size: 18px;
+    margin-left: 1rem;
+  }
+  .mainTitle {
+    font-size: 40px;
+    padding-left: 16px;
+  }
+  .breadText {
+    padding-left: 16px;
+    padding-right: 28px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .leftContainer {
+    display: none;
+  }
+  .rightContainer {
+    width: 90%;
+    margin: 1rem;
+  }
+  .info {
+    margin-right: 0;
+  }
+  .title {
+    margin-left: 5%;
+  }
+  .inputFormDate {
+    flex-direction: column;
+  }
+  .titleField {
+    font-size: 18px;
+  }
+  .textField {
+    margin-bottom: 24px;
+  }
+  .moreInfo {
+    font-size: 24px;
+  }
+  .radioButtons {
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .inputFormMoveOut {
+    flex-direction: column;
+  }
+  .costField {
+    width: 85%;
+  }
+  .labelField {
+    font-size: 18px;
+  }
+}

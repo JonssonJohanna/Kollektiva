@@ -159,6 +159,7 @@ const StepFour = () => {
               <img
                 className={styles.imageDrop}
                 src="/icons/dropImage.svg"
+                alt="Icon for dropping images"
               ></img>
               <div className={styles.textDrop}>
                 Dra in dina filer och släpp här
@@ -178,7 +179,7 @@ const StepFour = () => {
       <div className={styles.save}>
         <div className={styles.columnButton}>
           <button className={styles.buttons}>Spara utkast</button>
-          <Link href="Preview">
+          <Link href="Preview" passHref>
             <button className={styles.button}>Förhandsgranskning</button>
           </Link>
         </div>

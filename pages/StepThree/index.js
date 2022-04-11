@@ -4,6 +4,17 @@ import styles from "/styles/StepThree.module.css";
 const StepThree = () => {
   return (
     <div className={styles.bodyContainer}>
+      <div className={styles.pageNavigate}>
+        <Link href="/" passHref>
+          <a>Hem / </a>
+        </Link>
+        <Link href="/landlord">
+          <a>Hyr ut din bostad / </a>
+        </Link>
+        <Link href="/StepOne">
+          <a>Skapa annons</a>
+        </Link>
+      </div>
       <h2 className={styles.mainTitle}>Steg 3</h2>
       <p className={styles.breadText}>
         Fyll i information om den bostaden du vill hyra ut
@@ -19,7 +30,7 @@ const StepThree = () => {
             <p class={styles.stepInfo}>text</p>
           </div>
           <div className={styles.active}>
-            <h4 class={styles.active}>Step 3</h4>
+            <h4 class={styles.stepActive}>Step 3</h4>
             <p class={styles.stepInfo}>text</p>
           </div>
           <div className={styles.stepOne}>

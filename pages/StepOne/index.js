@@ -84,7 +84,7 @@ const StepOne = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
+                  checked={false}
                 />
                 <label>Hel bostad</label>
               </div>
@@ -115,7 +115,9 @@ const StepOne = () => {
             </div>
             <form>
               <div className={styles.inputField}>
-                <label className={styles.adress}>Hur många kvadratmeter?</label>
+                <label className={styles.adress}>
+                  Hur många kvadratmeter är bostaden du hyr ut?
+                </label>
                 <input
                   className={styles.metresField}
                   type="text"
@@ -136,7 +138,7 @@ const StepOne = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
+                  checked={false}
                 />
                 <label>Ja</label>
               </div>
@@ -160,9 +162,9 @@ const StepOne = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
+                  checked={false}
                 />
-                <label>Ja</label>
+                <label>Eget badrum</label>
               </div>
               <div className={styles.radioButtons}>
                 <input
@@ -170,7 +172,7 @@ const StepOne = () => {
                   type="radio"
                   value="option2"
                 />
-                <label>Nej</label>
+                <label>Delat badrum</label>
               </div>
             </form>
             <h4 className={styles.moreInfo}>
@@ -192,7 +194,7 @@ const StepOne = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
+                  checked={false}
                 />
                 <label>Du som hyresvärd</label>
               </div>
@@ -212,7 +214,7 @@ const StepOne = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
+                  checked={false}
                 />
                 <label>Du som hyresvärd</label>
               </div>
@@ -226,13 +228,14 @@ const StepOne = () => {
               </div>
             </form>
           </div>
+
+          <div className={styles.save}>
+            <button className={styles.buttons}>Spara utkast</button>
+            <Link href="StepTwo">
+              <button className={styles.buttons}>Nästa</button>
+            </Link>
+          </div>
         </div>
-      </div>
-      <div className={styles.save}>
-        <button className={styles.buttons}>Spara utkast</button>
-        <Link href="StepTwo">
-          <button className={styles.buttons}>Nästa</button>
-        </Link>
       </div>
     </div>
   );

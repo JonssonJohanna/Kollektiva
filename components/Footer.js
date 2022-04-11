@@ -17,7 +17,7 @@ const Footer = () => {
                 <p className="bold">Telefon:</p>
                 <p className="thin">0703-44 56 78</p>
               </div>
-              <div>
+              <div className="adressContainer">
                 <p className="bold">Adress: </p>
                 <p className="thin">
                   Exempelgatan 22 <br></br>422 22 Exempelborg <br></br>Sverige

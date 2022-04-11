@@ -136,6 +136,10 @@ Footer {
   width: 100%;
   background-color: rgb(124, 123, 123);
 }
+
+.adressContainer {
+  display: flex;
+}
 .Policies {
   display: flex;
   flex-direction: row;

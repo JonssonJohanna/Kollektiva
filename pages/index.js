@@ -45,7 +45,7 @@ export default function Home() {
           <h4 className={styles.selectButtons}>Hitta bostad</h4>
           <img src="/icons/Group.svg" className={styles.icon}></img>
         </button>
-        <Link href="/landlord">
+        <Link href="Landlord/landlord">
           <button className={styles.rentContainer}>
             <h4 className={styles.selectButtons}>Bli hyresvärd</h4>
             <img src="/icons/Key.svg" className={styles.icon}></img>
@@ -70,7 +70,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <img src="/images/kiddo.png" className={styles.environment}></img>
+          <img src="/images/house.png" className={styles.environment}></img>
         </div>
       </div>
 
@@ -91,7 +91,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <img src="/images/kiddo.png" className={styles.environment}></img>
+          <img src="/images/key.png" className={styles.environment}></img>
         </div>
       </div>
 

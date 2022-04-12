@@ -125,7 +125,7 @@
   height: 60px;
   padding-left: 2rem;
   margin-top: 20px;
-  width: 100%;
+  width: 73%;
   border: 1px solid #808080;
 }
 
@@ -150,11 +150,15 @@
 }
 .radioButtons {
   font-size: 20px;
+
+  align-items: center;
+  display: flex;
 }
 .checked {
-  height: 20px;
+  height: 40px;
   width: 40px;
   padding-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .metresField {
@@ -235,6 +239,12 @@
     font-size: 18px;
     margin-left: 1rem;
   }
+
+  .parentContainer {
+    display: flex;
+    justify-content: center;
+  }
+
   .mainTitle {
     font-size: 40px;
     padding-left: 16px;
@@ -250,12 +260,15 @@
   }
   .rightContainer {
     width: 90%;
-    margin: 1rem;
+    /* margin: 1rem; */
   }
+
   .info {
     margin: 0;
     padding-left: 0;
+    width: 100%;
   }
+
   .inputFields {
     flex-direction: column;
     margin: 20px;
@@ -315,5 +328,9 @@
   .counterContainer {
     height: 59px;
     width: 260px;
+  }
+
+  .cityField {
+    width: 100%;
   }
 }

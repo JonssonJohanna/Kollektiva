@@ -8,9 +8,11 @@
 .mainTitle {
   padding-left: 23%;
 }
+
 .breadText {
   padding-left: 23%;
 }
+
 .test {
   color: rgb(90, 116, 124);
 }
@@ -37,6 +39,9 @@
   gap: 40px;
 }
 
+.rightContainer img {
+  height: 40px;
+}
 .stepOne {
   background-color: rgb(218, 216, 216);
   border-radius: 0px 25px 25px 0px;
@@ -61,7 +66,7 @@
   border-radius: 25px;
   padding-bottom: 3rem;
   padding-left: 3rem;
-  width: 97%;
+  width: 100%;
   margin-left: 2rem;
 }
 
@@ -88,7 +93,9 @@
 .amentiesContainer {
   display: flex;
   gap: 2rem;
-  flex-direction: column;
+  flex-direction: row;
+  width: 300px;
+  object-fit: fill;
 }
 
 .amentiesRow {
@@ -102,6 +109,8 @@
   background-color: rgb(243, 243, 243);
   border-radius: 20px;
   border: none;
+  margin-right: 57px;
+  margin-bottom: 40px;
 }
 
 .save {
@@ -129,6 +138,14 @@
     padding-left: 16px;
   }
 
+  .title {
+    font-size: 32px;
+  }
+
+  .InfoType {
+    font-size: 18px;
+  }
+
   .breadText {
     padding-left: 16px;
   }
@@ -136,6 +153,12 @@
   .info {
     margin-left: 16px;
     padding-left: 16px;
+    padding-right: 16px;
     width: 90vw;
+  }
+
+  .amentiesItem {
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }

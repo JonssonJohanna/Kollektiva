@@ -82,7 +82,8 @@
 .inputField {
   display: flex;
   flex-direction: column;
-  margin: 0 40px 0 40px;
+  margin: 20px 20px 20px 20px;
+  width: 90%;
 }
 .moreInfo {
   font-size: 28px;
@@ -104,15 +105,25 @@
   width: 100%;
 }
 .radioContainer {
+  display: flex;
   margin: 0 40px 0 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 70%;
 }
 .radioButtons {
   font-size: 20px;
+  align-items: center;
+  display: flex;
+  width: 90vw;
 }
+
 .checked {
-  height: 20px;
+  height: 40px;
   width: 40px;
   padding-right: 0.5rem;
+  margin-right: 1rem;
 }
 .inputFormMoveOut {
   margin-bottom: 2rem;
@@ -153,7 +164,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 4%;
+  margin: 5%;
+  margin-left: 20px;
   gap: 1rem;
 }
 .imageDrop {
@@ -187,6 +199,8 @@
   height: 130px;
   background-color: #c4c4c4;
   border-radius: 20px;
+  display: inline-block;
+  margin: 29px;
 }
 .columnButton {
   display: flex;
@@ -195,7 +209,7 @@
 }
 .save {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   padding-top: 4rem;
   padding-right: 1rem;
   gap: 44%;
@@ -238,18 +252,23 @@
     margin-top: 10px;
     font-size: 18px;
   }
+  .parentContainer {
+    display: flex;
+    justify-content: center;
+  }
   .leftContainer {
     display: none;
   }
   .rightContainer {
     width: 90%;
-    margin: 1rem;
   }
   .info {
-    margin-right: 0;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
   }
   .title {
-    margin-left: 5%;
+    margin: 39px 0px 19px 20px;
   }
   .inputFormDate {
     flex-direction: column;
@@ -263,6 +282,10 @@
   .moreInfo {
     font-size: 24px;
   }
+  .radioContainer {
+    margin-left: 5%;
+    gap: 0;
+  }
   .radioButtons {
     margin-bottom: 30px;
     display: flex;
@@ -272,8 +295,24 @@
   }
   .costField {
     width: 85%;
+    word-spacing: 10rem;
   }
   .labelField {
     font-size: 18px;
+  }
+  .buttonDrop {
+    width: 40%;
+  }
+  .save {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  .buttons {
+    width: 260px;
+  }
+  .button {
+    width: 260px;
+    margin-bottom: 1rem;
   }
 }

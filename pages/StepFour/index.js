@@ -78,7 +78,6 @@ const StepFour = () => {
                   className={styles.checked}
                   type="radio"
                   value="option1"
-                  checked={true}
                 />
                 <label>Tillsvidare</label>
               </div>
@@ -142,7 +141,7 @@ const StepFour = () => {
             <h2 className={styles.title}>Beskrivning och bilder</h2>
             <form>
               <div className={styles.inputField}>
-                <label className={styles.titleField}>
+                <label className={styles.moreInfo}>
                   Skriv en kort beskrivning om din bostad
                 </label>
                 <textarea
@@ -166,7 +165,7 @@ const StepFour = () => {
               </div>
               <button className={styles.buttonDrop}>Välj filer</button>
             </div>
-            <div className={styles.dropedImages}>
+            <div>
               <div className={styles.imageItem}></div>
               <div className={styles.imageItem}></div>
               <div className={styles.imageItem}></div>
@@ -174,17 +173,18 @@ const StepFour = () => {
               <div className={styles.imageItem}></div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.save}>
-        <div className={styles.columnButton}>
-          <button className={styles.buttons}>Spara utkast</button>
-          <Link href="Preview" passHref>
-            <button className={styles.button}>Förhandsgranskning</button>
-          </Link>
-        </div>
 
-        <button className={styles.buttons}>Skicka in annons</button>
+          <div className={styles.save}>
+            <div className={styles.columnButton}>
+              <button className={styles.buttons}>Spara utkast</button>
+              <Link href="Preview" passHref>
+                <button className={styles.button}>Förhandsgranskning</button>
+              </Link>
+            </div>
+
+            <button className={styles.buttons}>Skicka in annons</button>
+          </div>
+        </div>
       </div>
     </div>
   );

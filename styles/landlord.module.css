@@ -81,6 +81,10 @@
   text-align: center;
 }
 
+.howItWorks {
+  width: 100%;
+}
+
 .aboutContainer {
   display: flex;
   flex-direction: row;
@@ -119,6 +123,7 @@
 
 .familyTitle {
   margin-left: 2rem;
+  font-size: 36px;
 }
 
 .familyTxt {
@@ -144,9 +149,73 @@
 }
 @media only screen and (max-width: 475px) {
   .container {
-    background-color: lightpink;
+    background-color: gray;
     flex-direction: column;
     width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .button {
+    width: 254px;
+    height: 59px;
+    font-size: 16px;
+    align-self: center;
+  }
+
+  .left {
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .right img {
+    width: 100vw;
+  }
+
+  .secondContainer {
+    flex-direction: column;
+  }
+
+  .secondTitle {
+    margin-top: 0;
+  }
+
+  .secondLeft {
+    width: 100vw;
+    margin: unset;
+  }
+  .secondRight {
+    width: 100vw;
+    margin: unset;
+  }
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: unset;
+    justify-content: center;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .aboutSection {
+    width: 100%;
+  }
+
+  .familySection {
+    flex-direction: column;
+  }
+
+  .familyImg {
+    width: 100%;
   }
 }

@@ -33,6 +33,7 @@ const landlord = () => {
             nunc. Dui vel, augue risus, cursus auctor.
           </p>
         </div>
+
         <div className={styles.secondRight}>
           <h3 className={styles.secondTitle}>Varför Kollektiva?</h3>
           <p>
@@ -46,7 +47,11 @@ const landlord = () => {
           </p>
         </div>
       </div>
-      <h2 className={styles.about}>Såhär fungerar det</h2>
+
+      <div className={styles.howItWorks}>
+        <h2 className={styles.about}>Såhär fungerar det</h2>
+      </div>
+
       <div className={styles.aboutContainer}>
         <div className={styles.aboutSection}>
           <img src="/images/empty.png" className={styles.aboutImg}></img>
@@ -78,6 +83,7 @@ const landlord = () => {
           </p>
         </div>
       </div>
+
       <div className={styles.familySection}>
         <div className={styles.familySectionText}>
           <h4 className={styles.familyTitle}>Skapa boende för nya familjer</h4>

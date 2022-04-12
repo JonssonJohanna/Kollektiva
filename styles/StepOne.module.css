@@ -254,6 +254,7 @@
   }
   .info {
     margin: 0;
+    padding-left: 0;
   }
   .inputFields {
     flex-direction: column;
@@ -271,6 +272,7 @@
   }
   .title {
     margin-left: 5%;
+    font-size: 32px;
   }
   .moreInfo {
     /* font-weight: 400; */
@@ -304,5 +306,6 @@
   }
   .counterContainer {
     height: 59px;
+    width: 260px;
   }
 }

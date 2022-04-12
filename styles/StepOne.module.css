@@ -117,7 +117,7 @@
 .city {
   display: flex;
   flex-direction: column;
-  width: 47%;
+  width: 100%;
 }
 .cityField {
   border-radius: 200px;
@@ -258,11 +258,19 @@
   }
   .inputFields {
     flex-direction: column;
+    margin: 20px;
+  }
+  .number {
+    width: 100%;
   }
   .adress {
     font-size: 24px;
     font-weight: 400;
   }
+  .adressField {
+    width: 100%;
+  }
+
   .inputName {
     font-size: 24px;
     font-weight: 400;

@@ -199,17 +199,8 @@
   }
 
   .counterContainer {
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 95%;
-    border: 1px solid #a8a8a8;
-    border-radius: 200px;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: white;
-    margin-bottom: 2rem;
+    height: 59px;
+    width: 260px;
   }
 
   .save {

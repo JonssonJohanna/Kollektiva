@@ -8,6 +8,7 @@
 .mainTitle {
   padding-left: 23%;
 }
+
 .breadText {
   padding-left: 23%;
 }
@@ -76,6 +77,9 @@
   margin-left: 2rem;
 }
 
+.InfoType {
+  font-weight: 500;
+}
 .inputField {
   display: flex;
   flex-direction: column;
@@ -118,6 +122,8 @@
   border-radius: 200px;
   border: none;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .radioButtonsContainer {
@@ -127,10 +133,21 @@
   justify-content: space-between;
 }
 
+.radioButtonsFirst {
+  display: flex;
+  align-items: center;
+}
+
+.radioButtonsSecond {
+  display: flex;
+  align-items: center;
+}
+
 .checked {
-  height: 20px;
+  height: 40px;
   width: 40px;
   padding-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 .counterContainer {
@@ -169,14 +186,22 @@
 }
 
 @media only screen and (max-width: 475px) {
+  .pageNavigate {
+    margin-left: 20px;
+  }
+
   .leftContainer {
     display: none;
   }
 
   .mainTitle {
     padding-left: 5%;
+    font-size: 40px;
   }
 
+  .title {
+    font-size: 32px;
+  }
   .breadText {
     padding-left: 5%;
   }
@@ -186,6 +211,7 @@
     border-radius: 25px;
     padding-bottom: 3rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     width: 90vw;
     margin-left: 5%;
     margin-right: 5%;
@@ -200,7 +226,7 @@
 
   .counterContainer {
     height: 59px;
-    width: 260px;
+    width: 100%;
   }
 
   .save {

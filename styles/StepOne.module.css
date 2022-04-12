@@ -237,7 +237,7 @@
 @media only screen and (max-width: 475px) {
   .pageNavigate {
     font-size: 18px;
-    margin-left: 1rem;
+    margin-left: 20px;
   }
 
   .parentContainer {

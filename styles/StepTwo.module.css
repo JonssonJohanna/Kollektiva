@@ -70,6 +70,9 @@
   margin-left: 2rem;
 }
 
+.InfoType {
+  font-weight: 500;
+}
 .stepInfo {
   padding-left: 1rem;
 }
@@ -127,23 +130,46 @@
   border-radius: 200px;
   border: none;
   cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 475px) {
+  .pageNavigate {
+    margin-left: 20px;
+  }
+
   .leftContainer {
     display: none;
   }
 
   .mainTitle {
     padding-left: 16px;
+    font-size: 40px;
   }
 
+  .save {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100vw;
+    padding-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .buttons {
+    width: 282px;
+  }
   .title {
     font-size: 32px;
   }
 
   .InfoType {
     font-size: 18px;
+    font-weight: 500;
   }
 
   .breadText {

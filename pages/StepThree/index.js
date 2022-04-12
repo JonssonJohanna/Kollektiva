@@ -42,7 +42,7 @@ const StepThree = () => {
         <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h3 className={styles.title}>Husregler</h3>
-            <h4>Är djur tillåtet i din bostad?</h4>
+            <h4 className={styles.InfoType}>Är djur tillåtet i din bostad?</h4>
             <div className={styles.radioButtonsContainer}>
               <div className={styles.radioButtonsFirst}>
                 <input
@@ -65,7 +65,9 @@ const StepThree = () => {
               </div>
             </div>
 
-            <h4>Är rökning tillåtet i din bostad?</h4>
+            <h4 className={styles.InfoType}>
+              Är rökning tillåtet i din bostad?
+            </h4>
             <div className={styles.radioButtonsContainer}>
               <div className={styles.radioButtonsFirst}>
                 <input
@@ -88,7 +90,9 @@ const StepThree = () => {
               </div>
             </div>
 
-            <h4>Är det tillåtet att måla om i din bostad?</h4>
+            <h4 className={styles.InfoType}>
+              Är det tillåtet att måla om i din bostad?
+            </h4>
             <div className={styles.radioButtonsContainer}>
               <div className={styles.radioButtonsFirst}>
                 <input
@@ -111,7 +115,7 @@ const StepThree = () => {
               </div>
             </div>
 
-            <h4>
+            <h4 className={styles.InfoType}>
               Är det tillåtet att spika upp saker på väggarna i din bostad?
             </h4>
             <div className={styles.radioButtonsContainer}>
@@ -136,7 +140,9 @@ const StepThree = () => {
               </div>
             </div>
 
-            <h4>Max antal personer som får bo i bostaden</h4>
+            <h4 className={styles.InfoType}>
+              Max antal personer som får bo i bostaden
+            </h4>
             <div className={styles.counterContainer}>
               <button className={styles.minus}>-</button>
               <div className={styles.counterText}>1 personer</div>

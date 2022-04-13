@@ -22,20 +22,20 @@ const StepThree = () => {
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 1</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 className={styles.step}>Step 1</h4>
+            <p className={styles.stepInfo}>text</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 2</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 className={styles.step}>Step 2</h4>
+            <p className={styles.stepInfo}>text</p>
           </div>
           <div className={styles.active}>
-            <h4 class={styles.stepActive}>Step 3</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 className={styles.stepActive}>Step 3</h4>
+            <p className={styles.stepInfo}>text</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 4</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 className={styles.step}>Step 4</h4>
+            <p className={styles.stepInfo}>text</p>
           </div>
         </div>
 

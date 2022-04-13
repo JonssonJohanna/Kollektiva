@@ -100,7 +100,7 @@ export default function Home() {
       </div>
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
-          <img src="/images/man.png" className={styles.quotesImg}></img>
+          <img src="/images/lennart.png" className={styles.quotesImg}></img>
 
           <h4>Åsa & Lennart</h4>
           <p className={styles.textContainer}>
@@ -110,7 +110,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.quoteImg}>
-          <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
+          <img src="/images/helena.png" className={styles.quotesImg}></img>{" "}
           <h4>Mikael & Helena</h4>
           <p className={styles.textContainer}>
             “Otroligt enkel och smidig hemsida. Så smart att kunna hyra ut sitt
@@ -120,7 +120,7 @@ export default function Home() {
         </div>
         <div className={styles.quoteImg}>
           <img
-            src="/images/man.png"
+            src="/images/jenny.png"
             className={styles.quotesImg}
             alt="man in a cafe"
           ></img>

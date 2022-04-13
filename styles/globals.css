@@ -1,5 +1,9 @@
 :root {
   --font-main: Avenir;
+  --darkblue: #002f8a;
+  --blue: #86afff;
+  --lightblue: #c7daff;
+  --lighterblue: #e4edff;
 }
 
 * {

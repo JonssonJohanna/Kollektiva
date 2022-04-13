@@ -17,7 +17,7 @@
 }
 
 .search {
-  background-color: gray;
+  background-color: var(--darkblue);
   width: 80%;
   border-radius: 50px;
 
@@ -53,7 +53,7 @@
 .type {
   display: flex;
   align-items: center;
-  background-color: rgb(173, 173, 173);
+  background-color: var(--blue);
   width: 50%;
   border-radius: 50px 50px 50px 0px;
   display: flex;
@@ -80,7 +80,7 @@
   align-items: center;
   width: 35%;
   height: 100%;
-  background-color: rgb(51, 50, 49);
+  background-color: var(--darkblue);
   border-radius: 50px 50px 50px 0px;
   padding-left: 2rem;
 }

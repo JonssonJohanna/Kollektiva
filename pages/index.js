@@ -96,26 +96,26 @@ export default function Home() {
       </div>
 
       <div className={styles.quotesTitle}>
-        <h2>Rubrik quotes</h2>
+        <h2>Våra kunder</h2>
       </div>
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
           <img src="/images/man.png" className={styles.quotesImg}></img>
 
-          <h4>Namn Namnsson</h4>
+          <h4>Åsa & Lennart</h4>
           <p className={styles.textContainer}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.
+            “Tack vare Kollektiva kunde vi hyra ut vårt stora hus och flytta in
+            en lägnhet som ligger mer centralt och mycket närmre våra barn och
+            barnbarn”
           </p>
         </div>
         <div className={styles.quoteImg}>
           <img src="/images/man.png" className={styles.quotesImg}></img>{" "}
-          <h4>Namn Namnsson</h4>
+          <h4>Mikael & Helena</h4>
           <p className={styles.textContainer}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.
+            “Otroligt enkel och smidig hemsida. Så smart att kunna hyra ut sitt
+            hus och flytta till en lägenhet nu när barnen vuxit upp och flyttat
+            ut. Rekomenderar kollektiva starkt!”
           </p>
         </div>
         <div className={styles.quoteImg}>
@@ -124,11 +124,11 @@ export default function Home() {
             className={styles.quotesImg}
             alt="man in a cafe"
           ></img>
-          <h4>Namn Namnsson</h4>
+          <h4>Patrik & Jenny</h4>
           <p className={styles.textContainer}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.
+            “Vi letade hus i ett år innan vi upptäckte Kollektiva. På bara två
+            veckor hade hittade vi ett hus som passade perfekt för vår familj.
+            Extra plus för säker uthyrning.”
           </p>
         </div>
       </div>

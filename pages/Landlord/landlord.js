@@ -48,9 +48,7 @@ const landlord = () => {
         </div>
       </div>
 
-      <div className={styles.howItWorks}>
-        <h2 className={styles.about}>Såhär fungerar det</h2>
-      </div>
+      <h2 className={styles.about}>Såhär fungerar det</h2>
 
       <div className={styles.aboutContainer}>
         <div className={styles.aboutSection}>

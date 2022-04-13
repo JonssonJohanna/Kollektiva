@@ -19,7 +19,8 @@
   height: 90vh;
   width: 50vw;
   padding: 3rem;
-  background-color: gray;
+  background-color: var(--lighterblue);
+  color: var(--darkblue);
 }
 
 .right img {
@@ -43,10 +44,10 @@
   height: 59px;
   border-radius: 90px;
   font-size: 28px;
-
   border: none;
-  background-color: rgb(182, 181, 178);
+  background-color: var(--darkblue);
   cursor: pointer;
+  color: white;
 }
 
 .secondContainer {
@@ -62,23 +63,26 @@
 
 .secondLeft {
   padding: 2rem;
-  background-color: rgb(124, 124, 123);
+  background-color: var(--lighterblue);
   width: 50%;
   margin-left: 30px;
   border-radius: 20px 20px 20px 0px;
+  color: var(--darkblue);
 }
 
 .secondRight {
   padding: 2rem;
   width: 50%;
   margin-right: 30px;
-  background-color: rgb(186, 182, 178);
+  background-color: var(--lightblue);
   border-radius: 20px 20px 20px 0px;
+  color: var(--darkblue);
 }
 
 .about {
   font-size: 52px;
   text-align: center;
+  color: var(--darkblue);
 }
 
 .howItWorks {
@@ -124,6 +128,7 @@
 .familyTitle {
   margin-left: 2rem;
   font-size: 36px;
+  color: var(--darkblue);
 }
 
 .familyTxt {
@@ -143,9 +148,10 @@
   font-size: 28px;
   margin-top: 15%;
   border: none;
-  background-color: rgb(182, 181, 178);
+  background-color: var(--darkblue);
   margin-left: 2rem;
   cursor: pointer;
+  color: white;
 }
 @media only screen and (max-width: 475px) {
   .container {

@@ -8,6 +8,7 @@
   padding-left: 23%;
   margin-bottom: 0;
   font-size: 52px;
+  color: var(--darkblue);
 }
 .breadText {
   padding-left: 23%;
@@ -38,22 +39,24 @@
 }
 
 .stepOne {
-  background-color: rgb(218, 216, 216);
+  background-color: var(--lighterblue);
   border-radius: 0px 25px 25px 0px;
   height: 107px;
 }
 
 .active {
-  background-color: rgb(75, 72, 72);
+  background-color: var(--blue);
   border-radius: 0px 25px 25px 0px;
   height: 107px;
 }
+
 .stepActive {
   padding-left: 1rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
 }
+
 .step {
   padding-left: 1rem;
   margin-top: 0;
@@ -66,16 +69,18 @@
 }
 
 .info {
-  background-color: #e8e5e5;
+  background-color: var(--lighterblue);
   border-radius: 25px;
   padding-bottom: 3rem;
   padding-left: 3rem;
   width: 97%;
   margin-left: 2rem;
 }
+
 .title {
   margin: 40px;
   font-size: 44px;
+  color: var(--darkblue);
 }
 
 .inputField {
@@ -88,6 +93,7 @@
   font-size: 28px;
   font-weight: 500;
 }
+
 .adressField {
   border-radius: 200px;
   border: none;
@@ -104,11 +110,13 @@
   margin: 40px;
   gap: 2rem;
 }
+
 .number {
   display: flex;
   flex-direction: column;
   width: 30%;
 }
+
 .inputName {
   font-size: 28px;
   font-weight: 500;
@@ -119,6 +127,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .cityField {
   border-radius: 200px;
   border: none;
@@ -134,6 +143,7 @@
   margin-bottom: 1rem;
   font-weight: 500;
 }
+
 .InfoType {
   font-size: 28px;
   margin-left: 5%;
@@ -144,15 +154,16 @@
 .radioContainer {
   display: flex;
   margin: 0 40px 0 40px;
-
   justify-content: space-between;
   width: 70%;
 }
+
 .radioButtons {
   font-size: 20px;
   align-items: center;
   display: flex;
 }
+
 .checked {
   height: 40px;
   width: 40px;
@@ -179,6 +190,7 @@
   margin-bottom: 2rem;
   width: 65%;
 }
+
 .save {
   display: flex;
   justify-content: space-between;
@@ -190,7 +202,8 @@
 .buttons {
   width: 175px;
   height: 68px;
-  background-color: rgb(212, 212, 212);
+  background-color: var(--darkblue);
+  color: white;
   border-radius: 200px;
   border: none;
   cursor: pointer;
@@ -211,6 +224,7 @@
   background-color: white;
   margin-bottom: 2rem;
 }
+
 .minus {
   width: 44px;
   height: 40px;
@@ -221,6 +235,7 @@
   background-color: white;
   cursor: pointer;
 }
+
 .plus {
   width: 44px;
   height: 40px;

@@ -22,20 +22,20 @@ const StepTwo = () => {
       <div className={styles.parentContainer}>
         <div className={styles.leftContainer}>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 1</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 1</h4>
+            <p class={styles.stepInfo}>Om din bostad</p>
           </div>
           <div className={styles.active}>
-            <h4 class={styles.stepActive}>Step 2</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.stepActive}>Steg 2</h4>
+            <p class={styles.stepInfo}>Bekvämligheter</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 3</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 3</h4>
+            <p class={styles.stepInfo}>Husregler</p>
           </div>
           <div className={styles.stepOne}>
-            <h4 class={styles.step}>Step 4</h4>
-            <p class={styles.stepInfo}>text</p>
+            <h4 class={styles.step}>Steg 4</h4>
+            <p class={styles.stepInfo}>Uthyrning</p>
           </div>
         </div>
 

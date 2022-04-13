@@ -84,9 +84,10 @@ Footer {
   justify-content: space-evenly;
   flex-direction: row;
   height: 350px;
-  background-color: gray;
+  background-color: var(--lighterblue);
   border-radius: 20px 0 0 0;
 }
+
 .FooterLogo {
   align-self: center;
   width: 50%;
@@ -94,7 +95,7 @@ Footer {
 }
 
 .FooterContact {
-  background-color: rgb(190, 190, 185);
+  background-color: var(--lightblue);
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -135,9 +136,10 @@ Footer {
   text-align: center;
   padding-top: 3rem;
   width: 50%;
-  background-color: gray;
+  background-color: var(--blue);
   border-radius: 20px 0 0 0;
 }
+
 .FooterKollektiva {
   font-size: 1.5rem;
   font-weight: bold;
@@ -146,7 +148,8 @@ Footer {
 
 .FooterInformation {
   width: 100%;
-  background-color: rgb(124, 123, 123);
+  background-color: var(--darkblue);
+  color: white;
 }
 
 .adressContainer {

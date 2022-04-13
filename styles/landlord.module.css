@@ -209,6 +209,7 @@
 
   .familySection {
     flex-direction: column;
+    margin: 0;
   }
 
   .familyImg {

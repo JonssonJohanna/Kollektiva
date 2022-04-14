@@ -79,25 +79,26 @@
 }
 
 .title {
-  margin: 40px;
   color: var(--darkblue);
+  font-size: 44px;
 }
 
 .inputFormDate {
   display: flex;
   flex-direction: row;
+  width: 85%;
 }
 
 .inputField {
   display: flex;
   flex-direction: column;
-  margin: 20px 20px 20px 20px;
+  margin-right: 1rem;
   width: 90%;
 }
 
 .moreInfo {
   font-size: 28px;
-  margin-left: 5%;
+
   margin-bottom: 1rem;
   font-weight: 500;
 }

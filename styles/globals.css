@@ -116,7 +116,7 @@ Footer {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  background-color: rgb(190, 190, 185);
+  background-color: var(--lightblue);
   border-radius: 20px 0 0 0;
 }
 
@@ -155,6 +155,7 @@ Footer {
 .adressContainer {
   display: flex;
 }
+
 .Policies {
   display: flex;
   flex-direction: row;
@@ -162,6 +163,7 @@ Footer {
   justify-content: center;
   text-decoration: underline;
 }
+
 .CopyRight {
   display: flex;
   flex-direction: row;

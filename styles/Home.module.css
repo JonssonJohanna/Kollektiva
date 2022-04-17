@@ -41,6 +41,7 @@
   border-radius: 50px 0px 0px 50px;
   width: 10%;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .inputText {
@@ -60,6 +61,7 @@
   justify-content: space-between;
   padding-left: 2rem;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .select {
@@ -72,7 +74,14 @@
   border: none;
   background-color: unset;
   color: white;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 18px;
+}
+.imgTitle {
+  margin: 0px;
+  font-size: 44px;
+  font-family: var(--font-main-title);
+  color: var(--darkblue);
 }
 
 .buttonContainer {
@@ -94,6 +103,8 @@
 }
 .selectButtons {
   font-size: 36px;
+  color: var(--darkblue);
+  font-family: var(--font-main-title);
   /* height: 56px; */
 }
 
@@ -188,6 +199,9 @@
 .quotesTitle {
   margin-top: 5%;
   margin-bottom: 5%;
+  font-family: var(--font-main-title);
+
+  color: var(--darkblue);
 }
 
 .quoteImg {

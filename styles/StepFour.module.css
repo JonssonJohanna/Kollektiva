@@ -299,22 +299,27 @@
     width: 100%;
   }
   .title {
-    margin: 39px 0px 19px 20px;
+    font-size: 32px;
+    margin-left: 16px;
   }
   .inputFormDate {
     flex-direction: column;
+    margin-left: 16px;
   }
   .titleField {
     font-size: 18px;
   }
   .textField {
     margin-bottom: 24px;
+    border: 1px solid var(--darkblue);
+    color: var(--darkblue);
   }
   .moreInfo {
     font-size: 24px;
+    margin-left: 16px;
   }
   .radioContainer {
-    margin-left: 5%;
+    margin-left: 10px;
     gap: 0;
   }
   .radioButtons {
@@ -323,13 +328,23 @@
   }
   .inputFormMoveOut {
     flex-direction: column;
+    margin-left: 16px;
   }
   .costField {
-    width: 85%;
+    width: 75%;
     word-spacing: 10rem;
+    margin-left: 16px;
   }
   .labelField {
     font-size: 18px;
+    margin-left: 16px;
+  }
+  .textArea {
+    margin-left: 16px;
+  }
+  .dragNdrop {
+    margin-left: 16px;
+    width: 90%;
   }
   .buttonDrop {
     width: 40%;

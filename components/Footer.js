@@ -5,7 +5,7 @@ const Footer = () => {
         <div className="FooterLogo">
           <img src="/icons/Group.svg" className="iconNav"></img>
         </div>
-        <div className="mammaDiv">
+        <div className="contactContainer">
           <div className="FooterContact">
             <p className="FooterContactUs">Kontakta oss</p>
             <div className="TextContainer">

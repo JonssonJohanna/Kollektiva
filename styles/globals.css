@@ -147,7 +147,7 @@ Footer {
   gap: 1rem;
 }
 
-.mammaDiv {
+.contactContainer {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -233,7 +233,7 @@ Footer {
     width: unset;
   }
 
-  .mammaDiv {
+  .contactContainer {
     display: block;
   }
   .FooterContact {

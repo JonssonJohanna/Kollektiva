@@ -9,7 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1 className={styles.title}>Bo efter dina behov</h1>
       <p className={styles.text}>
-        Rubrik här kan man hyra massa fina hus kolla vad bra
+        Välkommen till Kollektiva, framtidens plattform för uthyrning av hus.
       </p>
 
       <div className={styles.search}>
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className={styles.informationContainerRight}>
         <div className={styles.informationText}>
-          <h3 className={styles.imgTitle}>Bor du också i ett för stort hus?</h3>
+          <h3 className={styles.imgTitle}>Välkommen till Kollektiva</h3>
           <p className={styles.imgText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
@@ -76,7 +76,7 @@ export default function Home() {
 
       <div className={styles.informationContainer}>
         <div className={styles.informationText}>
-          <h3 className={styles.imgTitle}>Text om miljö</h3>
+          <h3 className={styles.imgTitle}>En hållbar bostadsmarknad</h3>
           <p className={styles.imgText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio

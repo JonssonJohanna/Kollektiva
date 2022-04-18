@@ -164,6 +164,7 @@ Footer {
   display: inline;
   font-weight: bold;
   padding-right: 1rem;
+  font-family: var(--font-main);
 }
 .thin {
   display: inline;

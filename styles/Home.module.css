@@ -83,6 +83,9 @@
   font-family: var(--font-main-title);
   color: var(--darkblue);
 }
+.imgText {
+  font-family: var(--font-main);
+}
 
 .buttonContainer {
   display: flex;
@@ -209,6 +212,9 @@
   flex-direction: column;
   text-align: center;
   width: 18rem;
+}
+.textContainer {
+  font-family: var(--font-main);
 }
 
 .formContainer {

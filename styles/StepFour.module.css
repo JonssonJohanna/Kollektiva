@@ -9,6 +9,7 @@
   padding-left: 23%;
   margin-bottom: 0;
   color: var(--darkblue);
+  font-family: var(--font-main-title);
 }
 
 .breadText {
@@ -81,6 +82,7 @@
 .title {
   color: var(--darkblue);
   font-size: 44px;
+  font-family: var(--font-main-title);
 }
 
 .inputFormDate {

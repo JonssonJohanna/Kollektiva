@@ -56,7 +56,7 @@ export default function Home() {
       <div className={styles.informationContainerRight}>
         <div className={styles.informationText}>
           <h3 className={styles.imgTitle}>Bor du också i ett för stort hus?</h3>
-          <p>
+          <p className={styles.imgText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
             maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet
@@ -77,7 +77,7 @@ export default function Home() {
       <div className={styles.informationContainer}>
         <div className={styles.informationText}>
           <h3 className={styles.imgTitle}>Text om miljö</h3>
-          <p>
+          <p className={styles.imgText}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
             maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet

@@ -8,6 +8,7 @@
 .mainTitle {
   padding-left: 23%;
   color: var(--darkblue);
+  font-family: var(--font-main-title);
 }
 
 .breadText {
@@ -38,6 +39,11 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+.title {
+  font-size: 44px;
+  color: var(--darkblue);
+  font-family: var(--font-main-title);
 }
 
 .rightContainer img {

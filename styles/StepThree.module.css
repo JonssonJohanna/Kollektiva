@@ -8,6 +8,7 @@
 .mainTitle {
   padding-left: 23%;
   color: var(--darkblue);
+  font-family: var(--font-main-title);
 }
 
 .breadText {
@@ -37,6 +38,12 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+.title {
+  font-size: 44px;
+  font-family: var();
+  color: var(--darkblue);
+  font-family: var(--font-main-title);
 }
 
 .step {
@@ -159,11 +166,11 @@
   flex-direction: row;
   height: 50px;
   width: 290px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid var(--darkblue);
+  color: var(--darkblue);
   border-radius: 200px;
   justify-content: space-between;
   align-items: center;
-
   background-color: white;
   margin-bottom: 2rem;
 }
@@ -174,7 +181,8 @@
   border-radius: 100%;
   margin-left: 2%;
   font-size: 25px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid var(--darkblue);
+  color: var(--darkblue);
   background-color: white;
   cursor: pointer;
 }
@@ -184,7 +192,8 @@
   border-radius: 100%;
   margin-right: 2%;
   font-size: 25px;
-  border: 1px solid #a8a8a8;
+  border: 1px solid var(--darkblue);
+  color: var(--darkblue);
   background-color: white;
   cursor: pointer;
 }

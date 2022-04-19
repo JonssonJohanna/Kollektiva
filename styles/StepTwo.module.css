@@ -159,18 +159,20 @@
   .mainTitle {
     padding-left: 16px;
     font-size: 40px;
+    margin-left: 20px;
   }
 
   .save {
     display: flex;
     /* justify-content: space-between; */
     width: 100vw;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
     flex-direction: column;
     justify-content: center;
     justify-self: center;
     align-items: center;
     gap: 1rem;
+    margin: 0;
   }
 
   .buttons {
@@ -187,10 +189,11 @@
 
   .breadText {
     padding-left: 16px;
+    margin-left: 20px;
   }
 
   .info {
-    margin-left: 16px;
+    margin-left: 20px;
     padding-left: 16px;
     padding-right: 16px;
     width: 90vw;

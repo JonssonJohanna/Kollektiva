@@ -84,7 +84,7 @@ const landlord = () => {
 
       <div className={styles.familySection}>
         <div className={styles.familySectionText}>
-          <h4 className={styles.familyTitle}>Skapa boende för nya familjer</h4>
+          <h4 className={styles.familyTitle}>Redo att hyra ut din bostad?</h4>
           <p className={styles.familyTxt}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Sit quis quam aliquam ornare

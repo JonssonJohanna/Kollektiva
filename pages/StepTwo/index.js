@@ -53,7 +53,7 @@ const StepTwo = () => {
             </button>
             <button className={styles.amentiesItem}>
               <img src="/icons/amenities/wifi.svg"></img>
-              <p>Wifi</p>
+              <p>Wi-fi</p>
             </button>
             <button className={styles.amentiesItem}>
               <img src="/icons/amenities/pool.svg"></img>
@@ -70,46 +70,46 @@ const StepTwo = () => {
             {/* </div> */}
             {/* <div className={styles.amentiesRow}> */}
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/parking.svg"></img>
-              <p>Parkering</p>
+              <img src="/icons/amenities/dryer.svg"></img>
+              <p>Torktumlare</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/wifi.svg"></img>
-              <p>Wifi</p>
+              <img src="/icons/amenities/washer.svg"></img>
+              <p>Tvättmaskin</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/pool.svg"></img>
-              <p>Pool</p>
+              <img src="/icons/amenities/sauna.svg"></img>
+              <p>Bastu</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/garden.svg"></img>
-              <p>Trädgård</p>
+              <img src="/icons/amenities/fire.svg"></img>
+              <p>Öppen spis</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/balcony.svg"></img>
-              <p>Balkong</p>
+              <img src="/icons/amenities/gym.svg"></img>
+              <p>Gym</p>
             </button>
             {/* </div>{" "} */}
             {/* <div className={styles.amentiesRow}> */}
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/parking.svg"></img>
-              <p>Parkering</p>
+              <img src="/icons/amenities/garage.svg"></img>
+              <p>Garage</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/wifi.svg"></img>
-              <p>Wifi</p>
+              <img src="/icons/amenities/tent.svg"></img>
+              <p>Uteplats</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/pool.svg"></img>
-              <p>Pool</p>
+              <img src="/icons/amenities/bbq.svg"></img>
+              <p>Grill</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/garden.svg"></img>
-              <p>Trädgård</p>
+              <img src="/icons/amenities/alarm.svg"></img>
+              <p>Brandvarnare</p>
             </button>
             <button className={styles.amentiesItem}>
-              <img src="/icons/amenities/balcony.svg"></img>
-              <p>Balkong</p>
+              <img src="/icons/amenities/storage.svg"></img>
+              <p>Förråd</p>
             </button>
             {/* </div> */}
             {/* </div> */}

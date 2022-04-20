@@ -220,7 +220,7 @@
   }
 
   .info {
-    background-color: #e8e5e5;
+    background-color: var(--lighterblue);
     border-radius: 25px;
     padding-bottom: 3rem;
     padding-left: 1rem;

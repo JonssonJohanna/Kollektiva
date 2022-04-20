@@ -87,7 +87,9 @@ const StepFour = () => {
                   type="radio"
                   value="option2"
                 />
-                <label>Bestämd tid (ange utflyttningsdatum)</label>
+                <label className={styles.labelTitle}>
+                  Bestämd tid (ange utflyttningsdatum)
+                </label>
               </div>
             </form>
             <h4 className={styles.moreInfo}>Utflyttningsdatum</h4>

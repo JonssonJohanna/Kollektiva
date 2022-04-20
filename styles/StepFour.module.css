@@ -334,12 +334,16 @@
   }
   .costField {
     width: 75%;
-    word-spacing: 10rem;
+    word-spacing: 7rem;
     margin-left: 16px;
   }
   .labelField {
     font-size: 18px;
     margin-left: 16px;
+  }
+
+  .labelTitle {
+    width: 50vw;
   }
   .textArea {
     margin-left: 16px;

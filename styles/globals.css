@@ -74,7 +74,9 @@ nav {
 .loginContainer a {
   color: white;
 }
-
+.iconNav {
+  width: 52px;
+}
 nav .homeIcon {
   margin-right: auto;
 }
@@ -84,6 +86,9 @@ a {
   text-decoration: none;
   font-family: var(--font-titles);
   font-size: 20px;
+}
+.burgerMenu {
+  display: none;
 }
 .container {
   max-width: 100vw;
@@ -127,7 +132,9 @@ Footer {
   background-color: var(--lighterblue);
   border-radius: 20px 0 0 0;
 }
-
+.iconNavFooter {
+  width: 74px;
+}
 .FooterLogo {
   align-self: center;
   width: 50%;
@@ -237,10 +244,28 @@ Footer {
   h5 {
     font-size: 18px;
   }
+  .iconNav {
+    width: 32px;
+  }
+  .loginContainer {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+  .burgerMenu {
+    display: flex;
+  }
   .FooterContainer {
     display: flex;
     flex-direction: column;
-    height: 580px;
+    height: 640px;
+  }
+  .iconNavFooter {
+    width: 46px;
+  }
+  .logoText {
+    font-size: 28px;
   }
   .FooterLogo img {
     height: 71px;

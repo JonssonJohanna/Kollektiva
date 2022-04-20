@@ -8,6 +8,8 @@ const Navbar = () => {
         <img src="/icons/Group.svg" className="iconNav"></img>
       </div>
 
+      <img src="/icons/hamburgerMenu.svg" className="burgerMenu"></img>
+
       <Link href="/forRent">
         <a>Hitta bostad</a>
       </Link>

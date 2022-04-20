@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <nav>
       <div className="homeIcon">
-        <img src="/icons/Group.svg" className="iconNav"></img>
+        <Link href="/" passHref>
+          <img src="/icons/Group.svg" className="iconNav"></img>
+        </Link>
       </div>
 
       <img src="/icons/hamburgerMenu.svg" className="burgerMenu"></img>
@@ -13,7 +15,7 @@ const Navbar = () => {
       <Link href="/forRent">
         <a>Hitta bostad</a>
       </Link>
-      <Link href="/landlord">
+      <Link href="/Landlord/landlord">
         <a>Hyr ut din bostad</a>
       </Link>
       <Link href="/about">

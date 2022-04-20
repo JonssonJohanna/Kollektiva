@@ -95,9 +95,9 @@ const landlord = () => {
           </Link>
         </div>
 
-        <div className={styles.familySectionImg}>
-          <img src="/images/dinner.png" className={styles.familyImg}></img>
-        </div>
+        {/* <div className={styles.familySectionImg}> */}
+        <img src="/images/dinner.png" className={styles.familyImg}></img>
+        {/* </div> */}
       </div>
     </div>
   );

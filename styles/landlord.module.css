@@ -212,11 +212,12 @@
   .aboutContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: unset;
-    justify-content: center;
-    margin-left: 1rem;
     font-family: var(--font-main);
+    /*justify-content: center;
+     width: 100%;
+    gap: unset;
+    margin-left: 1rem;
+      */
   }
   .about {
     font-size: 45px;
@@ -224,18 +225,23 @@
     text-align: start;
   }
   .aboutImg {
-    padding-right: 2rem;
+    /* padding-right: 2rem; */
+    width: 95%;
   }
   .aboutContainer {
     font-size: 18px;
   }
   .aboutTitle {
     font-size: 24px;
+    margin-bottom: 15px;
   }
 
   .aboutSection {
     width: 100%;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 1rem;
   }
   .familyButton {
     margin-left: 4rem;
@@ -252,6 +258,7 @@
 
   .familyImg {
     width: 100%;
+    border-radius: 0px 0px 20px 20px;
   }
   .familyTitle {
     margin: 1rem;

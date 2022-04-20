@@ -76,6 +76,7 @@ nav {
 }
 .iconNav {
   width: 52px;
+  cursor: pointer;
 }
 nav .homeIcon {
   margin-right: auto;

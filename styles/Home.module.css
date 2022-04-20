@@ -78,6 +78,7 @@
   color: white;
   font-weight: 500;
   font-size: 18px;
+  font-family: var(--font-titles);
 }
 .imgTitle {
   margin: 0px;
@@ -87,6 +88,8 @@
 }
 .imgText {
   font-family: var(--font-main);
+  line-height: 143%;
+  font-size: 20px;
 }
 
 .buttonContainer {
@@ -204,8 +207,8 @@
 }
 
 .quotesTitle {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   font-family: var(--font-main-title);
 
   color: var(--darkblue);
@@ -217,8 +220,15 @@
   text-align: center;
   width: 18rem;
 }
+
+.quoteImg h4 {
+  margin-bottom: 21px;
+}
+
 .textContainer {
   font-family: var(--font-main);
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .formContainer {

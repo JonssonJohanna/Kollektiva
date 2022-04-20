@@ -43,7 +43,7 @@ export default function Home() {
       <div className={styles.selectContainer}>
         <button className={styles.findContainer}>
           <h4 className={styles.selectButtons}>Hitta bostad</h4>
-          <img src="/icons/Group.svg" className={styles.icon}></img>
+          <img src="/icons/home.svg" className={styles.icon}></img>
         </button>
         <Link href="Landlord/landlord">
           <button className={styles.rentContainer}>
@@ -57,16 +57,18 @@ export default function Home() {
         <div className={styles.informationText}>
           <h3 className={styles.imgTitle}>Välkommen till Kollektiva</h3>
           <p className={styles.imgText}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet
-            molestie nunc. Dui vel, augue risus, cursus auctor. Quam aliquam
-            ornare natoque sed nulla. Mi, porttitor et odio maecenas quam
-            pellentesque ultrices maecenas nulla. Vitae id ut amet molestie
-            nunc. Dui vel, augue risus, cursus auctor. Quam aliquam ornare
-            natoque sed nulla. Mi, porttitor et odio maecenas quam pellentesque
-            ultrices maecenas nulla. Vitae id ut amet molestie nunc. Dui vel,
-            augue risus, cursus auctor.
+            Idag har äldre svårt att hitta boende som passar den livsstil de är
+            i behov av. Många bor för stort, men det är i dag många gånger
+            dyrare att flytta till en mindre lägenhet och köerna till
+            servicehem, där man kan ha egen mindre lägenhet i ett
+            bostadskomplex, är långa.{" "}
+          </p>
+          <p className={styles.imgText}>
+            Kollektiva är en plattform där du kan skapa och hantera uthyrningar.
+            Men också en plattform där du kan hitta inneboende. Det ska alltså
+            gå att hyra ut det egna boendet i andra hand om du som ägare vill
+            fortsätta att äga bostaden. Vi betalar en fast summa till den som
+            äger bostaden per kvartal och hanterar uthyrningen.
           </p>
         </div>
         <div className={styles.informationImg}>
@@ -78,16 +80,20 @@ export default function Home() {
         <div className={styles.informationText}>
           <h3 className={styles.imgTitle}>En hållbar bostadsmarknad</h3>
           <p className={styles.imgText}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
-            quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla. Vitae id ut amet
-            molestie nunc. Dui vel, augue risus, cursus auctor. Quam aliquam
-            ornare natoque sed nulla. Mi, porttitor et odio maecenas quam
-            pellentesque ultrices maecenas nulla. Vitae id ut amet molestie
-            nunc. Dui vel, augue risus, cursus auctor. Quam aliquam ornare
-            natoque sed nulla. Mi, porttitor et odio maecenas quam pellentesque
-            ultrices maecenas nulla. Vitae id ut amet molestie nunc. Dui vel,
-            augue risus, cursus auctor.
+            FN:s globala mål pratar om att över hälften av världens befolkning
+            bor i urbana områden, och andelen väntas stiga till 70 procent år
+            2050. Växande städer kan skapa nya möjligheter för ekonomisk
+            tillväxt, men kan också bidra till ökade sociala klyftor och
+            påfrestningar på ekosystem. Den snabba och stora inflyttningen till
+            städer ställer nya krav som behöver bemötas på ett ekologiskt,
+            ekonomiskt och socialt hållbart sätt.{" "}
+          </p>
+
+          <p className={styles.imgText}>
+            Samtidigt är det bostadsbrist för familjer och yngre.
+            Bostadsmarknaden har under de senare decennierna underminerats och
+            rörligheten för den som inte har stort kapital är minimal. Det vill
+            vi ändra på!
           </p>
         </div>
         <div className={styles.informationImg}>

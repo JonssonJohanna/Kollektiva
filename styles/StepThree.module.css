@@ -9,10 +9,14 @@
   padding-left: 23%;
   color: var(--darkblue);
   font-family: var(--font-main-title);
+  margin-bottom: 1px;
 }
 
 .breadText {
   padding-left: 23%;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 .test {
   color: rgb(90, 116, 124);
@@ -47,7 +51,7 @@
 }
 
 .step {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
@@ -60,11 +64,11 @@
 }
 
 .stepInfo {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .stepActive {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
@@ -135,6 +139,7 @@
   cursor: pointer;
   font-size: 20px;
   font-weight: 500;
+  font-family: var(--font-titles);
 }
 
 .radioButtonsContainer {
@@ -142,6 +147,7 @@
   flex-direction: row;
   width: 40%;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .radioButtonsFirst {
@@ -173,6 +179,7 @@
   align-items: center;
   background-color: white;
   margin-bottom: 2rem;
+  font-size: 20px;
 }
 
 .minus {
@@ -198,9 +205,13 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
   .pageNavigate {
     margin-left: 20px;
+  }
+
+  .pageNavigate a {
+    font-size: 18px;
   }
 
   .leftContainer {
@@ -217,6 +228,8 @@
   }
   .breadText {
     padding-left: 5%;
+    padding-right: 70px;
+    font-size: 18px;
   }
 
   .info {
@@ -244,8 +257,17 @@
 
   .save {
     display: flex;
-    justify-content: space-between;
     width: 100vw;
-    padding-top: 4rem;
+    padding-top: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+  }
+
+  .buttons {
+    width: 282px;
   }
 }

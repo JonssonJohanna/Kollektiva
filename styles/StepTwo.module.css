@@ -9,10 +9,14 @@
   padding-left: 23%;
   color: var(--darkblue);
   font-family: var(--font-main-title);
+  margin-bottom: 1px;
 }
 
 .breadText {
   padding-left: 23%;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 
 .test {
@@ -48,6 +52,7 @@
 
 .rightContainer img {
   height: 40px;
+  margin-top: 2rem;
 }
 
 .stepOne {
@@ -57,7 +62,7 @@
 }
 
 .stepActive {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
@@ -83,11 +88,11 @@
 }
 
 .stepInfo {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .step {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
@@ -124,6 +129,13 @@
   border: none;
   margin-right: 57px;
   margin-bottom: 40px;
+  font-size: 20px;
+  font-family: var(--font-titles);
+  cursor: pointer;
+}
+
+.amentiesItem p {
+  margin-top: 11px;
 }
 
 .save {
@@ -145,11 +157,17 @@
   font-weight: 500;
   background-color: var(--darkblue);
   color: white;
+  font-family: var(--font-titles);
+  cursor: pointer;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
   .pageNavigate {
     margin-left: 20px;
+  }
+
+  .pageNavigate a {
+    font-size: 18px;
   }
 
   .leftContainer {
@@ -183,13 +201,17 @@
   }
 
   .InfoType {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
+    margin-bottom: 40px;
+    padding-right: 56px;
   }
 
   .breadText {
     padding-left: 16px;
     margin-left: 20px;
+    font-size: 18px;
+    padding-right: 46px;
   }
 
   .info {
@@ -202,5 +224,10 @@
   .amentiesItem {
     margin-right: 15px;
     margin-left: 15px;
+  }
+
+  .amentiesItem p {
+    font-size: 18px;
+    font-family: var(--font-titles);
   }
 }

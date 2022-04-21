@@ -84,9 +84,7 @@ export default function Home() {
             bor i urbana områden, och andelen väntas stiga till 70 procent år
             2050. Växande städer kan skapa nya möjligheter för ekonomisk
             tillväxt, men kan också bidra till ökade sociala klyftor och
-            påfrestningar på ekosystem. Den snabba och stora inflyttningen till
-            städer ställer nya krav som behöver bemötas på ett ekologiskt,
-            ekonomiskt och socialt hållbart sätt.{" "}
+            påfrestningar på ekosystem.{" "}
           </p>
 
           <p className={styles.imgText}>
@@ -97,7 +95,7 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <img src="/images/key.png" className={styles.environment}></img>
+          <img src="/images/key.png" className={styles.environmentKey}></img>
         </div>
       </div>
 

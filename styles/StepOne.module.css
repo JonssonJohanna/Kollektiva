@@ -52,21 +52,21 @@
 }
 
 .stepActive {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
 }
 
 .step {
-  padding-left: 1rem;
+  padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 1rem;
 }
 
 .stepInfo {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .info {
@@ -259,6 +259,10 @@
     margin-left: 20px;
   }
 
+  .pageNavigate a {
+    font-size: 18px;
+  }
+
   .parentContainer {
     display: flex;
     justify-content: center;
@@ -271,7 +275,7 @@
   .breadText {
     padding-left: 16px;
     padding-right: 28px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 18px;
   }
   .leftContainer {
@@ -286,6 +290,7 @@
     margin: 0;
     padding-left: 0;
     width: 100%;
+    padding-bottom: 16px;
   }
 
   .inputFields {
@@ -301,6 +306,7 @@
   }
   .adressField {
     width: 100%;
+    font-size: 18px;
   }
 
   .inputName {
@@ -322,6 +328,10 @@
     flex-direction: column;
     gap: 1rem;
     margin-left: 5%;
+  }
+
+  .radioButtons {
+    font-size: 18px;
   }
   .inputField {
     margin: 20px;
@@ -349,6 +359,14 @@
   .counterContainer {
     height: 59px;
     width: 260px;
+  }
+
+  .counterText {
+    font-size: 18px;
+  }
+
+  .metresField {
+    font-size: 18px;
   }
 
   .cityField {

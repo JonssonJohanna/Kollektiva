@@ -6,12 +6,21 @@
   z-index: 0;
 }
 
+.pageNavigate {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .title {
   font-size: 80px;
+  padding-left: 50px;
 }
 
 .secondTitle {
   font-size: 36px;
+  margin: 0px;
+  font-family: var(--font-main-title);
 }
 
 .left {
@@ -19,7 +28,7 @@
   flex-direction: column;
   height: 90vh;
   width: 50vw;
-  padding: 3rem;
+  padding: 8px 3rem 3rem 3rem;
   background-color: var(--lighterblue);
   color: var(--darkblue);
 }
@@ -50,6 +59,8 @@
   background-color: var(--darkblue);
   cursor: pointer;
   color: white;
+  margin-left: 50px;
+  margin-top: 40px;
 }
 
 .secondContainer {
@@ -59,7 +70,7 @@
   display: flex;
   height: 50%;
   gap: 30px;
-  margin-top: 50px;
+  margin-top: 104px;
   margin-bottom: 100px;
 }
 
@@ -72,6 +83,10 @@
   color: var(--darkblue);
 }
 
+.secondLeft p {
+  font-size: 20px;
+}
+
 .secondRight {
   padding: 2rem;
   width: 50%;
@@ -81,11 +96,16 @@
   color: var(--darkblue);
 }
 
+.secondRight p {
+  font-size: 20px;
+}
+
 .about {
   font-size: 52px;
   text-align: center;
   color: var(--darkblue);
   font-family: var(--font-main-title);
+  margin-bottom: 86px;
 }
 
 .howItWorks {
@@ -139,6 +159,8 @@
 .familyTxt {
   padding-left: 2rem;
   width: 95%;
+  font-size: 20px;
+  font-family: var(--font-main);
 }
 
 .familyImg {
@@ -156,7 +178,7 @@
   background-color: var(--darkblue);
   cursor: pointer;
   color: white;
-  margin-top: 15%;
+  margin-top: 5%;
 
   margin-left: 2rem;
 }
@@ -170,15 +192,25 @@
     align-items: center;
   }
 
+  .pageNavigate {
+    font-size: 18px;
+    justify-content: flex-start;
+    display: flex;
+  }
+
   .title {
     font-size: 40px;
+    padding: unset;
   }
 
   .button {
     width: 254px;
     height: 59px;
-    font-size: 16px;
+    font-size: 28px;
     align-self: center;
+    margin: unset;
+    margin-bottom: 40px;
+    margin-top: 20px;
   }
 
   .left {
@@ -186,6 +218,12 @@
     justify-content: center;
     text-align: center;
     padding: 2rem;
+    height: unset;
+    padding-top: 8px;
+  }
+
+  .right {
+    height: unset;
   }
 
   .right img {
@@ -194,6 +232,8 @@
 
   .secondContainer {
     flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .secondTitle {
@@ -213,27 +253,24 @@
     display: flex;
     flex-direction: column;
     font-family: var(--font-main);
-    /*justify-content: center;
-     width: 100%;
-    gap: unset;
-    margin-left: 1rem;
-      */
   }
   .about {
-    font-size: 45px;
+    font-size: 40px;
     margin-left: 1rem;
     text-align: start;
+    margin-bottom: 24px;
   }
   .aboutImg {
-    /* padding-right: 2rem; */
     width: 95%;
+    height: 277px;
   }
   .aboutContainer {
     font-size: 18px;
   }
   .aboutTitle {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
+    margin-top: 24px;
   }
 
   .aboutSection {
@@ -244,9 +281,10 @@
     padding-left: 1rem;
   }
   .familyButton {
-    margin-left: 4rem;
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-left: unset;
+    font-size: 28px;
   }
 
   .familySection {
@@ -254,11 +292,17 @@
     margin-top: 20px;
     margin-left: 22px;
     width: 90%;
+
+    text-align: center;
   }
 
+  .familyTxt {
+    font-size: 18px;
+  }
   .familyImg {
     width: 100%;
     border-radius: 0px 0px 20px 20px;
+    height: 282px;
   }
   .familyTitle {
     margin: 1rem;

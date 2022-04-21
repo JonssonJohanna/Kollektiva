@@ -38,7 +38,7 @@ const StepFour = () => {
             <p className={styles.stepInfo}>Uthyrning</p>
           </div>
         </div>
-        {/* step one */}
+
         <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Uthyrningsperiod</h2>
@@ -120,7 +120,7 @@ const StepFour = () => {
               </div>
             </form>
           </div>
-          {/* Step two */}
+
           <div className={styles.info}>
             <h2 className={styles.title}>Pris</h2>
             <h4 className={styles.moreInfo}>

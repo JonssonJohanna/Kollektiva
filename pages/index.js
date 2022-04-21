@@ -43,12 +43,20 @@ export default function Home() {
       <div className={styles.selectContainer}>
         <button className={styles.findContainer}>
           <h4 className={styles.selectButtons}>Hitta bostad</h4>
-          <img src="/icons/home.svg" className={styles.icon}></img>
+          <img
+            src="/icons/home.svg"
+            className={styles.icon}
+            alt="Icon of a house"
+          ></img>
         </button>
         <Link href="Landlord/landlord">
           <button className={styles.rentContainer}>
             <h4 className={styles.selectButtons}>Bli hyresvärd</h4>
-            <img src="/icons/Key.svg" className={styles.icon}></img>
+            <img
+              src="/icons/Key.svg"
+              className={styles.icon}
+              alt="Icon of a key."
+            ></img>
           </button>
         </Link>
       </div>
@@ -61,7 +69,7 @@ export default function Home() {
             i behov av. Många bor för stort, men det är i dag många gånger
             dyrare att flytta till en mindre lägenhet och köerna till
             servicehem, där man kan ha egen mindre lägenhet i ett
-            bostadskomplex, är långa.{" "}
+            bostadskomplex, är långa.
           </p>
           <p className={styles.imgText}>
             Kollektiva är en plattform där du kan skapa och hantera uthyrningar.
@@ -72,7 +80,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <img src="/images/house.png" className={styles.environment}></img>
+          <img
+            src="/images/house.png"
+            className={styles.environment}
+            alt="White house with black roof."
+          ></img>
         </div>
       </div>
 
@@ -84,7 +96,7 @@ export default function Home() {
             bor i urbana områden, och andelen väntas stiga till 70 procent år
             2050. Växande städer kan skapa nya möjligheter för ekonomisk
             tillväxt, men kan också bidra till ökade sociala klyftor och
-            påfrestningar på ekosystem.{" "}
+            påfrestningar på ekosystem.
           </p>
 
           <p className={styles.imgText}>
@@ -95,7 +107,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.informationImg}>
-          <img src="/images/key.png" className={styles.environmentKey}></img>
+          <img
+            src="/images/key.png"
+            className={styles.environmentKey}
+            alt="Keys haning from a lock on an open door."
+          ></img>
         </div>
       </div>
 
@@ -104,7 +120,11 @@ export default function Home() {
       </div>
       <div className={styles.quotesContainer}>
         <div className={styles.quoteImg}>
-          <img src="/images/lennart.png" className={styles.quotesImg}></img>
+          <img
+            src="/images/lennart.png"
+            className={styles.quotesImg}
+            alt="Couple hugging with nature in the background"
+          ></img>
 
           <h4>Åsa & Lennart</h4>
           <p className={styles.textContainer}>
@@ -114,7 +134,11 @@ export default function Home() {
           </p>
         </div>
         <div className={styles.quoteImg}>
-          <img src="/images/helena.png" className={styles.quotesImg}></img>{" "}
+          <img
+            src="/images/helena.png"
+            className={styles.quotesImg}
+            alt="A couple looking happy together and hugging"
+          ></img>
           <h4>Mikael & Helena</h4>
           <p className={styles.textContainer}>
             “Otroligt enkel och smidig hemsida. Så smart att kunna hyra ut sitt
@@ -126,7 +150,7 @@ export default function Home() {
           <img
             src="/images/jenny.png"
             className={styles.quotesImg}
-            alt="man in a cafe"
+            alt="A couple hugging each other from behind looking happy."
           ></img>
           <h4>Patrik & Jenny</h4>
           <p className={styles.textContainer}>

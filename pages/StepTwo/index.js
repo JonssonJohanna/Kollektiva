@@ -45,8 +45,7 @@ const StepTwo = () => {
             <h4 className={styles.InfoType}>
               Klicka i alla bekvämligheter som finns i din bostad
             </h4>
-            {/* <div className={styles.amentiesContainer}> */}
-            {/* <div className={styles.amentiesRow}> */}
+
             <button className={styles.amentiesItem}>
               <img src="/icons/amenities/parking.svg"></img>
               <p>Parkering</p>
@@ -67,8 +66,7 @@ const StepTwo = () => {
               <img src="/icons/amenities/balcony.svg"></img>
               <p>Balkong</p>
             </button>
-            {/* </div> */}
-            {/* <div className={styles.amentiesRow}> */}
+
             <button className={styles.amentiesItem}>
               <img src="/icons/amenities/dryer.svg"></img>
               <p>Torktumlare</p>
@@ -89,8 +87,6 @@ const StepTwo = () => {
               <img src="/icons/amenities/gym.svg"></img>
               <p>Gym</p>
             </button>
-            {/* </div>{" "} */}
-            {/* <div className={styles.amentiesRow}> */}
             <button className={styles.amentiesItem}>
               <img src="/icons/amenities/garage.svg"></img>
               <p>Garage</p>
@@ -111,8 +107,6 @@ const StepTwo = () => {
               <img src="/icons/amenities/storage.svg"></img>
               <p>Förråd</p>
             </button>
-            {/* </div> */}
-            {/* </div> */}
           </div>
           <div className={styles.save}>
             <button className={styles.buttons}>Spara utkast</button>

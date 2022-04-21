@@ -39,7 +39,7 @@ const StepOne = () => {
             <p className={styles.stepInfo}>Uthyrning</p>
           </div>
         </div>
-        {/* step one */}
+
         <div className={styles.rightContainer}>
           <div className={styles.info}>
             <h2 className={styles.title}>Adress</h2>
@@ -74,7 +74,7 @@ const StepOne = () => {
               </div>
             </form>
           </div>
-          {/* step two */}
+
           <div className={styles.info}>
             <h2 className={styles.title}>Typ av bostad</h2>
             <h4 className={styles.InfoType}>Vilken typ av bostad hyr du ut?</h4>
@@ -126,7 +126,7 @@ const StepOne = () => {
               </div>
             </form>
           </div>
-          {/* Step three */}
+
           <div className={styles.info}>
             <h2 className={styles.title}>Möbler</h2>
             <h4 className={styles.moreInfo}>
@@ -152,7 +152,7 @@ const StepOne = () => {
               </div>
             </form>
           </div>
-          {/* step four */}
+
           <div className={styles.info}>
             <h2 className={styles.title}>Badrum</h2>
             <h4 className={styles.moreInfo}>Tillgång till badrum?</h4>
@@ -184,7 +184,7 @@ const StepOne = () => {
               <button className={styles.plus}>+</button>
             </div>
           </div>
-          {/* Step five */}
+
           <div className={styles.info}>
             <h2 className={styles.title}>Driftkostnader</h2>
             <h4 className={styles.moreInfo}>Vem betalar elkostnader?</h4>

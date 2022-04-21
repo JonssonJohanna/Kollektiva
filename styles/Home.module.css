@@ -69,7 +69,6 @@
 .select {
   background-color: unset;
   border: none;
-  /* width: 30px; */
 }
 
 .searchButton {
@@ -115,7 +114,6 @@
   color: var(--darkblue);
   font-family: var(--font-main-title);
   margin-bottom: 23px;
-  /* height: 56px; */
 }
 
 .selectContainer {
@@ -310,7 +308,6 @@
 
   .select {
     height: 56px;
-    /* width: 125px; */
     font-size: 1rem;
     padding: 0;
     align-self: center;
@@ -318,11 +315,9 @@
 
   .selectButtons {
     font-size: 22px;
-    /* height: 56px; */
   }
   .type {
     width: 343px;
-    /* height: 56px; */
     border-radius: 50px;
     align-self: center;
   }

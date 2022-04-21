@@ -22,7 +22,11 @@ const landlord = () => {
           </Link>
         </div>
         <div className={styles.right}>
-          <img src="/images/hands.png" className={styles.hands}></img>
+          <img
+            src="/images/hands.png"
+            className={styles.hands}
+            alt="Two people shaking hands"
+          ></img>
         </div>
       </div>
 
@@ -36,10 +40,9 @@ const landlord = () => {
             i behov av. Många bor för stort, men det är i dag många gånger
             dyrare att flytta till en mindre lägenhet och köerna till
             servicehem, där man kan ha egen mindre lägenhet i ett
-            bostadskomplex, är långa.{" "}
+            bostadskomplex, är långa.
           </p>
           <p>
-            {" "}
             mer aktiva 55+ kan befinna sig i en liknande situation: att ha samma
             kvadratmeter för en eller två personer när barnen sedan länge har
             flyttat ut och rummen står tomma.
@@ -54,7 +57,6 @@ const landlord = () => {
             mer tillgänglig bostadsmarknad som ledstjärna.
           </p>
           <p>
-            {" "}
             Det gör vi genom att bygga de bästa sökverktygen för hyres-gäster
             att hitta sina drömbostäder, förenkla fastighetsägarnas vardag genom
             effektiv marknadsföring och ge hyresvärdarna chans att nå fler
@@ -67,32 +69,44 @@ const landlord = () => {
 
       <div className={styles.aboutContainer}>
         <div className={styles.aboutSection}>
-          <img src="/images/empty.png" className={styles.aboutImg}></img>
+          <img
+            src="/images/empty.png"
+            className={styles.aboutImg}
+            alt="An empty livingroom with white walls and a window and balcony."
+          ></img>
           <h4 className={styles.aboutTitle}>Skapa en annons</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.{" "}
+            maecenas quam pellentesque ultrices maecenas nulla.
           </p>
         </div>
 
         <div className={styles.aboutSection}>
-          <img src="/images/keys2.png" className={styles.aboutImg}></img>
+          <img
+            src="/images/keys2.png"
+            className={styles.aboutImg}
+            alt="A hand holding keys."
+          ></img>
           <h4 className={styles.aboutTitle}>Hyr ut din bostad</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.{" "}
+            maecenas quam pellentesque ultrices maecenas nulla.
           </p>
         </div>
 
         <div className={styles.aboutSection}>
-          <img src="/images/oldCouple.png" className={styles.aboutImg}></img>
+          <img
+            src="/images/oldCouple.png"
+            className={styles.aboutImg}
+            alt="Old couple walking and hugging."
+          ></img>
           <h4 className={styles.aboutTitle}>Bo efter ditt behov</h4>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis
             quam aliquam ornare natoque sed nulla. Mi, porttitor et odio
-            maecenas quam pellentesque ultrices maecenas nulla.{" "}
+            maecenas quam pellentesque ultrices maecenas nulla.
           </p>
         </div>
       </div>
@@ -111,9 +125,11 @@ const landlord = () => {
           </Link>
         </div>
 
-        {/* <div className={styles.familySectionImg}> */}
-        <img src="/images/dinner.png" className={styles.familyImg}></img>
-        {/* </div> */}
+        <img
+          src="/images/dinner.png"
+          className={styles.familyImg}
+          alt="A family having dinner together"
+        ></img>
       </div>
     </div>
   );

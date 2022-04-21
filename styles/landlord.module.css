@@ -64,7 +64,6 @@
 }
 
 .secondContainer {
-  /* background-color: rgb(180, 137, 144); */
   flex-direction: row;
   width: 100%;
   display: flex;

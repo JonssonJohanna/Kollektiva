@@ -30,7 +30,6 @@
 }
 
 .leftContainer {
-  /* background-color: rgb(244, 255, 182); */
   width: 17%;
   gap: 40px;
   display: flex;
@@ -182,7 +181,6 @@
 
   .save {
     display: flex;
-    /* justify-content: space-between; */
     width: 100vw;
     padding-top: 1.5rem;
     flex-direction: column;

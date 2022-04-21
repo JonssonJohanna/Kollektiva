@@ -284,7 +284,6 @@
   }
   .rightContainer {
     width: 90%;
-    /* margin: 1rem; */
   }
 
   .info {
@@ -320,9 +319,6 @@
   .title {
     margin-left: 5%;
     font-size: 32px;
-  }
-  .moreInfo {
-    /* font-weight: 400; */
   }
   .radioContainer {
     display: flex;

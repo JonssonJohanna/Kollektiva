@@ -168,11 +168,21 @@ const StepFour = () => {
               <button className={styles.buttonDrop}>Välj filer</button>
             </div>
             <div>
-              <div className={styles.imageItem}></div>
-              <div className={styles.imageItem}></div>
-              <div className={styles.imageItem}></div>
-              <div className={styles.imageItem}></div>
-              <div className={styles.imageItem}></div>
+              <div className={styles.imageItem}>
+                <img src="icons/houseImages.svg"></img>
+              </div>
+              <div className={styles.imageItem}>
+                <img src="icons/houseImages.svg"></img>
+              </div>
+              <div className={styles.imageItem}>
+                <img src="icons/houseImages.svg"></img>
+              </div>
+              <div className={styles.imageItem}>
+                <img src="icons/houseImages.svg"></img>
+              </div>
+              <div className={styles.imageItem}>
+                <img src="icons/houseImages.svg"></img>
+              </div>
             </div>
           </div>
 

@@ -211,6 +211,7 @@
   cursor: pointer;
   font-size: 20px;
   font-weight: 400;
+  font-family: var(--font-titles);
 }
 
 .counterContainer {
@@ -274,7 +275,7 @@
   }
   .breadText {
     padding-left: 16px;
-    padding-right: 28px;
+    padding-right: 60px;
     margin-top: 20px;
     font-size: 18px;
   }

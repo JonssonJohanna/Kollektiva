@@ -182,7 +182,7 @@
 
   margin-left: 2rem;
 }
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 1024px) {
   .container {
     background-color: var(--lighterblue);
     flex-direction: column;
@@ -309,5 +309,17 @@
     padding: 1rem;
     text-align: center;
     font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .aboutImg {
+    width: 95%;
+    height: unset;
+  }
+  .familyImg {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    height: unset;
   }
 }

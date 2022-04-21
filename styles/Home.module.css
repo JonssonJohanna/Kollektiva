@@ -256,7 +256,7 @@
   margin-bottom: 20px;
 }
 /* Mobile */
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 1024px) {
   .title {
     margin-top: 4rem;
     font-size: 36px;
@@ -415,7 +415,4 @@
     text-decoration: underline;
     cursor: pointer;
   }
-}
-/* Tablet */
-@media only screen and (min-width: 700px) {
 }

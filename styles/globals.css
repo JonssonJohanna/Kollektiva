@@ -292,5 +292,9 @@ Footer {
   }
 }
 /* Tablet */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .TextContainer {
+    width: 70%;
+    font-size: 12px;
+  }
 }

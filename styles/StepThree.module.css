@@ -205,7 +205,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
   .pageNavigate {
     margin-left: 20px;
   }
